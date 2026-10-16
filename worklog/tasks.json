@@ -1,0 +1,7 @@
+[
+  ["feat/a1-*",              "A1"],
+  ["feat/a2-persistence",    "A2.1"],
+  ["feat/a2-jobs",           "A2.2"],
+  ["feat/a2-object-storage", "A2.3"],
+  ["main",                   "обговорення"]
+]
