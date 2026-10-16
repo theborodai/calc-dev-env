@@ -354,10 +354,12 @@ python3 worklog.py install-hook       # (пере)записати хуки в ~
 
 - [x] Репозиторій, токен, секрет і dotfiles налаштовано (§3).
 - [x] Клон у `/workspaces/calc-dev-env`, дані старого трекера й пам'ять скопійовано.
-- [ ] `worklog.py` адаптовано під цей репозиторій (корінь git, гілка `main`, коміт `memory/`, хуки
+- [x] `worklog.py` адаптовано під цей репозиторій (корінь git, гілка `main`, коміт `memory/`, хуки
       `SessionStart`/`Stop`/`SessionEnd`, розділ «По задачах»).
-- [ ] `install.sh`, `tasks.json`, `.gitignore`.
-- [ ] Хуки в `~/.claude/settings.json`, symlink пам'яті, перший `sync`.
-- [ ] Старий трекер прибрано (§11).
+- [x] `install.sh`, `tasks.json`, `.gitignore`.
+- [x] Хуки в `~/.claude/settings.json`, symlink пам'яті, перший `sync` і push.
+- [x] Worktree `/workspaces/cost-calculator.worklog` прибрано (§11, крок 4).
+- [ ] Старий хук `SessionEnd` у `/workspaces/cost-calculator/.claude/settings.local.json` (§11, крок 3).
+- [ ] Рішення щодо гілки `worklog` у репозиторії PO (§11, крок 5).
 
 Після завершення цей розділ треба видалити.

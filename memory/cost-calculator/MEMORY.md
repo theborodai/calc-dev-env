@@ -2,4 +2,4 @@
 - [PO questions as separate issues](po-questions-separate-issues.md) — never ask PO via comments; check whose question it is
 - [Team is user + Claude](team-is-user-plus-claude.md) — one human + Claude, one task at a time; no 2-dev parallelism in estimates
 - [Estimate calibration A1–A2](estimate-calibration-a.md) — estimates vs actual session time; ~10–15× faster than revised estimate
-- [dev-env migration — IN PROGRESS](dev-env-migration-pending.md) — resume: move worklog + memory to private theborodai/dev-env after codespace restart
+- [calc-dev-env: time tracking + memory](dev-env-migration-pending.md) — private repo theborodai/calc-dev-env; 2 cleanup items left
