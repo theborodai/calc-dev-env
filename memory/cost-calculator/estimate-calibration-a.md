@@ -16,7 +16,7 @@ Actual time reconstructed from session transcripts (message timestamps) and git/
 | A2.1 Postgres+migrations+stand (16.10) | 2–3 + stand 2–3 | 15:21→16:33 ≈ 1.2 h (18 min gen, rest Q&A, TLS + secrets docs) |
 | A2.2 Job runtime | 3–5 | 16:33→17:55 ≈ 1.4 h (14 min gen, ~40 min design talk, progress feature) |
 | A2.3 object storage | (was moved to stage 1, ~1 day implied) | 17:55→18:08 gen 13 min, + ~20 min infra questions; PR #275 merged 16.10 |
-| SEC.a internal OIDC login + sessions (26.10, PR #278) | 3–5 h session for whole SEC (a+b+c) | branch 15:48 → PR 16:08 ≈ 20 min gen (+ ~15 min spec reading before); 28 integration scenarios green first run |
+| SEC.a internal OIDC login + sessions (26.10, PR #278) | 3–5 h session for whole SEC (a+b+c) | branch 15:48 → PR 16:08 ≈ 20 min gen (+ ~15 min spec reading before); 28 integration scenarios green first run; + throttling (§3.23) after design Q&A ≈ 25 min |
 | A2 total | revised 16.10: 1–1.5 person-weeks (4–6 days, incl. audit not yet done) | ≈ 3 h |
 
 Ratio: ~10–15× faster than the revised (16.10) estimate, ~20–30× vs the original (15.10) one.

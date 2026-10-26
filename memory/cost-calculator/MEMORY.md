@@ -3,3 +3,4 @@
 - [Team is user + Claude](team-is-user-plus-claude.md) — one human + Claude, one task at a time; no 2-dev parallelism in estimates
 - [Estimate calibration A1–A2](estimate-calibration-a.md) — estimates vs actual session time; ~10–15× faster than revised estimate
 - [calc-dev-env: time tracking + memory](dev-env-migration-pending.md) — private repo theborodai/calc-dev-env; 2 cleanup items left
+- [SEC implementation progress](sec-implementation-progress.md) — PR #278 (a) open; next (b) audit+grants+admin bootstrap, (c) UI
