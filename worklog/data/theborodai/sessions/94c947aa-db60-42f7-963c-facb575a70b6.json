@@ -1,7 +1,7 @@
 {
  "session": "94c947aa-db60-42f7-963c-facb575a70b6",
  "start": "2026-10-26T11:53:42Z",
- "end": "2026-10-26T13:17:43Z",
+ "end": "2026-10-26T13:25:37Z",
  "ended_at": null,
  "intervals": [
   [
@@ -541,98 +541,584 @@
   [
    "2026-10-26T13:16:22Z",
    "2026-10-26T13:16:32Z",
-   "agent",
+   "agent+",
    "main"
   ],
   [
    "2026-10-26T13:16:32Z",
    "2026-10-26T13:16:34Z",
-   "agent",
+   "agent+",
    "main"
   ],
   [
    "2026-10-26T13:16:34Z",
    "2026-10-26T13:16:35Z",
-   "agent",
+   "agent+",
    "main"
   ],
   [
    "2026-10-26T13:16:35Z",
    "2026-10-26T13:16:50Z",
-   "agent",
+   "agent+",
    "main"
   ],
   [
    "2026-10-26T13:16:50Z",
    "2026-10-26T13:16:52Z",
-   "agent",
+   "agent+",
    "main"
   ],
   [
    "2026-10-26T13:16:52Z",
    "2026-10-26T13:16:53Z",
-   "agent",
+   "agent+",
    "main"
   ],
   [
    "2026-10-26T13:16:53Z",
    "2026-10-26T13:16:55Z",
-   "agent",
+   "agent+",
    "main"
   ],
   [
    "2026-10-26T13:16:55Z",
    "2026-10-26T13:16:56Z",
-   "agent",
+   "agent+",
    "main"
   ],
   [
    "2026-10-26T13:16:56Z",
    "2026-10-26T13:16:58Z",
-   "agent",
+   "agent+",
    "main"
   ],
   [
    "2026-10-26T13:16:58Z",
    "2026-10-26T13:17:00Z",
-   "agent",
+   "agent+",
    "main"
   ],
   [
    "2026-10-26T13:17:00Z",
    "2026-10-26T13:17:17Z",
-   "agent",
+   "agent+",
    "main"
   ],
   [
    "2026-10-26T13:17:17Z",
    "2026-10-26T13:17:28Z",
-   "agent",
+   "agent+",
    "main"
   ],
   [
    "2026-10-26T13:17:28Z",
    "2026-10-26T13:17:34Z",
-   "agent",
+   "agent+",
    "main"
   ],
   [
    "2026-10-26T13:17:34Z",
    "2026-10-26T13:17:43Z",
-   "agent",
+   "agent+",
    "main"
   ],
   [
    "2026-10-26T13:17:43Z",
    "2026-10-26T13:17:43Z",
-   "agent",
+   "agent+",
    "main"
   ],
   [
    "2026-10-26T13:17:43Z",
    "2026-10-26T13:17:43Z",
+   "agent+",
+   "main"
+  ],
+  [
+   "2026-10-26T13:17:43Z",
+   "2026-10-26T13:20:29Z",
+   "user",
+   "main"
+  ],
+  [
+   "2026-10-26T13:20:29Z",
+   "2026-10-26T13:20:39Z",
+   "agent+",
+   "main"
+  ],
+  [
+   "2026-10-26T13:20:39Z",
+   "2026-10-26T13:20:41Z",
+   "agent+",
+   "main"
+  ],
+  [
+   "2026-10-26T13:20:41Z",
+   "2026-10-26T13:20:41Z",
+   "agent+",
+   "main"
+  ],
+  [
+   "2026-10-26T13:20:41Z",
+   "2026-10-26T13:20:44Z",
+   "agent+",
+   "main"
+  ],
+  [
+   "2026-10-26T13:20:44Z",
+   "2026-10-26T13:20:44Z",
+   "agent+",
+   "main"
+  ],
+  [
+   "2026-10-26T13:20:44Z",
+   "2026-10-26T13:20:45Z",
+   "agent+",
+   "main"
+  ],
+  [
+   "2026-10-26T13:20:45Z",
+   "2026-10-26T13:20:46Z",
+   "agent+",
+   "main"
+  ],
+  [
+   "2026-10-26T13:20:46Z",
+   "2026-10-26T13:20:52Z",
+   "agent+",
+   "main"
+  ],
+  [
+   "2026-10-26T13:20:52Z",
+   "2026-10-26T13:20:55Z",
+   "agent+",
+   "main"
+  ],
+  [
+   "2026-10-26T13:20:55Z",
+   "2026-10-26T13:20:55Z",
+   "agent+",
+   "main"
+  ],
+  [
+   "2026-10-26T13:20:55Z",
+   "2026-10-26T13:20:55Z",
+   "agent+",
+   "main"
+  ],
+  [
+   "2026-10-26T13:20:55Z",
+   "2026-10-26T13:21:46Z",
+   "user",
+   "main"
+  ],
+  [
+   "2026-10-26T13:21:46Z",
+   "2026-10-26T13:21:49Z",
    "agent",
    "main"
+  ],
+  [
+   "2026-10-26T13:21:49Z",
+   "2026-10-26T13:21:50Z",
+   "agent",
+   "main"
+  ],
+  [
+   "2026-10-26T13:21:50Z",
+   "2026-10-26T13:21:51Z",
+   "agent",
+   "main"
+  ],
+  [
+   "2026-10-26T13:21:51Z",
+   "2026-10-26T13:21:53Z",
+   "agent",
+   "docs/internal-user-provisioning"
+  ],
+  [
+   "2026-10-26T13:21:53Z",
+   "2026-10-26T13:21:54Z",
+   "agent",
+   "docs/internal-user-provisioning"
+  ],
+  [
+   "2026-10-26T13:21:54Z",
+   "2026-10-26T13:22:01Z",
+   "agent",
+   "docs/internal-user-provisioning"
+  ],
+  [
+   "2026-10-26T13:22:01Z",
+   "2026-10-26T13:22:02Z",
+   "agent",
+   "docs/internal-user-provisioning"
+  ],
+  [
+   "2026-10-26T13:22:02Z",
+   "2026-10-26T13:22:03Z",
+   "agent",
+   "docs/internal-user-provisioning"
+  ],
+  [
+   "2026-10-26T13:22:03Z",
+   "2026-10-26T13:22:04Z",
+   "agent",
+   "docs/internal-user-provisioning"
+  ],
+  [
+   "2026-10-26T13:22:04Z",
+   "2026-10-26T13:22:04Z",
+   "agent",
+   "docs/internal-user-provisioning"
+  ],
+  [
+   "2026-10-26T13:22:04Z",
+   "2026-10-26T13:22:06Z",
+   "agent",
+   "docs/internal-user-provisioning"
+  ],
+  [
+   "2026-10-26T13:22:06Z",
+   "2026-10-26T13:22:07Z",
+   "agent",
+   "docs/internal-user-provisioning"
+  ],
+  [
+   "2026-10-26T13:22:07Z",
+   "2026-10-26T13:22:09Z",
+   "agent",
+   "docs/internal-user-provisioning"
+  ],
+  [
+   "2026-10-26T13:22:09Z",
+   "2026-10-26T13:22:10Z",
+   "agent",
+   "docs/internal-user-provisioning"
+  ],
+  [
+   "2026-10-26T13:22:10Z",
+   "2026-10-26T13:22:11Z",
+   "agent",
+   "docs/internal-user-provisioning"
+  ],
+  [
+   "2026-10-26T13:22:11Z",
+   "2026-10-26T13:22:38Z",
+   "agent",
+   "docs/internal-user-provisioning"
+  ],
+  [
+   "2026-10-26T13:22:38Z",
+   "2026-10-26T13:22:38Z",
+   "agent",
+   "docs/internal-user-provisioning"
+  ],
+  [
+   "2026-10-26T13:22:38Z",
+   "2026-10-26T13:22:38Z",
+   "agent",
+   "docs/internal-user-provisioning"
+  ],
+  [
+   "2026-10-26T13:22:38Z",
+   "2026-10-26T13:22:39Z",
+   "agent",
+   "docs/internal-user-provisioning"
+  ],
+  [
+   "2026-10-26T13:22:39Z",
+   "2026-10-26T13:22:43Z",
+   "agent",
+   "docs/internal-user-provisioning"
+  ],
+  [
+   "2026-10-26T13:22:43Z",
+   "2026-10-26T13:22:45Z",
+   "agent",
+   "docs/internal-user-provisioning"
+  ],
+  [
+   "2026-10-26T13:22:45Z",
+   "2026-10-26T13:22:45Z",
+   "agent",
+   "docs/internal-user-provisioning"
+  ],
+  [
+   "2026-10-26T13:22:45Z",
+   "2026-10-26T13:22:46Z",
+   "agent",
+   "docs/internal-user-provisioning"
+  ],
+  [
+   "2026-10-26T13:22:46Z",
+   "2026-10-26T13:22:56Z",
+   "agent",
+   "docs/internal-user-provisioning"
+  ],
+  [
+   "2026-10-26T13:22:56Z",
+   "2026-10-26T13:22:56Z",
+   "agent",
+   "docs/internal-user-provisioning"
+  ],
+  [
+   "2026-10-26T13:22:56Z",
+   "2026-10-26T13:22:58Z",
+   "agent",
+   "docs/internal-user-provisioning"
+  ],
+  [
+   "2026-10-26T13:22:58Z",
+   "2026-10-26T13:22:59Z",
+   "agent",
+   "docs/internal-user-provisioning"
+  ],
+  [
+   "2026-10-26T13:22:59Z",
+   "2026-10-26T13:23:00Z",
+   "agent",
+   "docs/internal-user-provisioning"
+  ],
+  [
+   "2026-10-26T13:23:00Z",
+   "2026-10-26T13:23:27Z",
+   "agent",
+   "docs/internal-user-provisioning"
+  ],
+  [
+   "2026-10-26T13:23:27Z",
+   "2026-10-26T13:23:52Z",
+   "agent",
+   "docs/internal-user-provisioning"
+  ],
+  [
+   "2026-10-26T13:23:52Z",
+   "2026-10-26T13:23:53Z",
+   "agent",
+   "docs/internal-user-provisioning"
+  ],
+  [
+   "2026-10-26T13:23:53Z",
+   "2026-10-26T13:23:55Z",
+   "agent",
+   "docs/internal-user-provisioning"
+  ],
+  [
+   "2026-10-26T13:23:55Z",
+   "2026-10-26T13:23:57Z",
+   "agent",
+   "docs/internal-user-provisioning"
+  ],
+  [
+   "2026-10-26T13:23:57Z",
+   "2026-10-26T13:23:58Z",
+   "agent",
+   "docs/internal-user-provisioning"
+  ],
+  [
+   "2026-10-26T13:23:58Z",
+   "2026-10-26T13:24:00Z",
+   "agent",
+   "docs/internal-user-provisioning"
+  ],
+  [
+   "2026-10-26T13:24:00Z",
+   "2026-10-26T13:24:09Z",
+   "agent",
+   "docs/internal-user-provisioning"
+  ],
+  [
+   "2026-10-26T13:24:09Z",
+   "2026-10-26T13:24:11Z",
+   "agent",
+   "docs/internal-user-provisioning"
+  ],
+  [
+   "2026-10-26T13:24:11Z",
+   "2026-10-26T13:24:13Z",
+   "agent",
+   "docs/internal-user-provisioning"
+  ],
+  [
+   "2026-10-26T13:24:13Z",
+   "2026-10-26T13:24:17Z",
+   "agent",
+   "docs/internal-user-provisioning"
+  ],
+  [
+   "2026-10-26T13:24:17Z",
+   "2026-10-26T13:24:18Z",
+   "agent",
+   "docs/internal-user-provisioning"
+  ],
+  [
+   "2026-10-26T13:24:18Z",
+   "2026-10-26T13:24:21Z",
+   "agent",
+   "docs/internal-user-provisioning"
+  ],
+  [
+   "2026-10-26T13:24:21Z",
+   "2026-10-26T13:24:31Z",
+   "agent",
+   "docs/internal-user-provisioning"
+  ],
+  [
+   "2026-10-26T13:24:31Z",
+   "2026-10-26T13:24:32Z",
+   "agent",
+   "docs/internal-user-provisioning"
+  ],
+  [
+   "2026-10-26T13:24:32Z",
+   "2026-10-26T13:24:34Z",
+   "agent",
+   "docs/internal-user-provisioning"
+  ],
+  [
+   "2026-10-26T13:24:34Z",
+   "2026-10-26T13:24:35Z",
+   "agent",
+   "docs/internal-user-provisioning"
+  ],
+  [
+   "2026-10-26T13:24:35Z",
+   "2026-10-26T13:24:39Z",
+   "agent",
+   "docs/internal-user-provisioning"
+  ],
+  [
+   "2026-10-26T13:24:39Z",
+   "2026-10-26T13:24:40Z",
+   "agent",
+   "docs/internal-user-provisioning"
+  ],
+  [
+   "2026-10-26T13:24:40Z",
+   "2026-10-26T13:24:40Z",
+   "agent",
+   "docs/internal-user-provisioning"
+  ],
+  [
+   "2026-10-26T13:24:40Z",
+   "2026-10-26T13:24:42Z",
+   "agent",
+   "docs/internal-user-provisioning"
+  ],
+  [
+   "2026-10-26T13:24:42Z",
+   "2026-10-26T13:24:43Z",
+   "agent",
+   "docs/internal-user-provisioning"
+  ],
+  [
+   "2026-10-26T13:24:43Z",
+   "2026-10-26T13:24:48Z",
+   "agent",
+   "docs/internal-user-provisioning"
+  ],
+  [
+   "2026-10-26T13:24:48Z",
+   "2026-10-26T13:24:49Z",
+   "agent",
+   "docs/internal-user-provisioning"
+  ],
+  [
+   "2026-10-26T13:24:49Z",
+   "2026-10-26T13:24:50Z",
+   "agent",
+   "docs/internal-user-provisioning"
+  ],
+  [
+   "2026-10-26T13:24:50Z",
+   "2026-10-26T13:24:52Z",
+   "agent",
+   "docs/internal-user-provisioning"
+  ],
+  [
+   "2026-10-26T13:24:52Z",
+   "2026-10-26T13:24:54Z",
+   "agent",
+   "docs/internal-user-provisioning"
+  ],
+  [
+   "2026-10-26T13:24:54Z",
+   "2026-10-26T13:24:56Z",
+   "agent",
+   "docs/internal-user-provisioning"
+  ],
+  [
+   "2026-10-26T13:24:56Z",
+   "2026-10-26T13:24:58Z",
+   "agent",
+   "docs/internal-user-provisioning"
+  ],
+  [
+   "2026-10-26T13:24:58Z",
+   "2026-10-26T13:24:58Z",
+   "agent",
+   "docs/internal-user-provisioning"
+  ],
+  [
+   "2026-10-26T13:24:58Z",
+   "2026-10-26T13:24:58Z",
+   "agent",
+   "docs/internal-user-provisioning"
+  ],
+  [
+   "2026-10-26T13:24:58Z",
+   "2026-10-26T13:24:59Z",
+   "agent",
+   "docs/internal-user-provisioning"
+  ],
+  [
+   "2026-10-26T13:24:59Z",
+   "2026-10-26T13:25:01Z",
+   "agent",
+   "docs/internal-user-provisioning"
+  ],
+  [
+   "2026-10-26T13:25:01Z",
+   "2026-10-26T13:25:05Z",
+   "agent",
+   "docs/internal-user-provisioning"
+  ],
+  [
+   "2026-10-26T13:25:05Z",
+   "2026-10-26T13:25:08Z",
+   "agent",
+   "docs/internal-user-provisioning"
+  ],
+  [
+   "2026-10-26T13:25:08Z",
+   "2026-10-26T13:25:24Z",
+   "agent",
+   "docs/internal-user-provisioning"
+  ],
+  [
+   "2026-10-26T13:25:24Z",
+   "2026-10-26T13:25:27Z",
+   "agent",
+   "docs/internal-user-provisioning"
+  ],
+  [
+   "2026-10-26T13:25:27Z",
+   "2026-10-26T13:25:37Z",
+   "agent",
+   "docs/internal-user-provisioning"
+  ],
+  [
+   "2026-10-26T13:25:37Z",
+   "2026-10-26T13:25:37Z",
+   "agent",
+   "docs/internal-user-provisioning"
+  ],
+  [
+   "2026-10-26T13:25:37Z",
+   "2026-10-26T13:25:37Z",
+   "agent",
+   "docs/internal-user-provisioning"
   ]
  ],
  "pauses": [
