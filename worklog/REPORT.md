@@ -1,19 +1,19 @@
 # Облік часу — theborodai
 
-Оновлено: 2026-10-26 17:41 (Europe/Kyiv). Поріг паузи: 15 хв. Формат — год:хв. Визначення — у [README.md](README.md).
+Оновлено: 2026-10-26 18:07 (Europe/Kyiv). Поріг паузи: 15 хв. Формат — год:хв. Визначення — у [README.md](README.md).
 
 | Період | Загальний | Мій | з них мої ходи |
 |---|---:|---:|---:|
-| Сьогодні | 0:55 | 0:50 | 0:45 |
-| Цей тиждень | 0:55 | 0:50 | 0:45 |
-| Цей місяць | 7:21 | 6:39 | 4:49 |
-| Усього | 7:21 | 6:39 | 4:49 |
+| Сьогодні | 1:21 | 0:58 | 0:51 |
+| Цей тиждень | 1:21 | 0:58 | 0:51 |
+| Цей місяць | 7:47 | 6:46 | 4:55 |
+| Усього | 7:47 | 6:46 | 4:55 |
 
 ## По днях
 
 | Дата | Загальний | Мій | з них мої ходи | Сесій | Пауз |
 |---|---:|---:|---:|---:|---:|
-| 2026-10-26 | 0:55 | 0:50 | 0:45 | 1 | 2 |
+| 2026-10-26 | 1:21 | 0:58 | 0:51 | 2 | 2 |
 | 2026-10-16 | 4:06 | 4:02 | 2:33 | 3 | 3 |
 | 2026-10-15 | 0:50 | 0:19 | 0:18 | 1 | 2 |
 | 2026-10-14 | 1:16 | 1:16 | 1:01 | 2 | 1 |
@@ -30,9 +30,10 @@
 | `feat/a2-jobs` | 1:03 | 1:02 |
 | `feat/a2-persistence` | 1:00 | 0:59 |
 | `feat/a1-skeleton` | 0:47 | 0:32 |
+| `feat/sec-internal-auth` | 0:19 | 0:00 |
+| `docs/internal-user-provisioning` | 0:11 | 0:07 |
 | `docs/dec-053-pos-coordinate-reference` | 0:05 | 0:05 |
 | `docs/dec-054-sourcing-benchmark` | 0:05 | 0:05 |
-| `docs/internal-user-provisioning` | 0:04 | 0:00 |
 | `docs/secrets-delivery` | 0:01 | 0:01 |
 | `docs/rule-business-questions-as-issues` | 0:00 | 0:00 |
 | `docs/implementation-roadmap` | 0:00 | 0:00 |
@@ -49,9 +50,10 @@
 | A2.2 | 1:03 | 1:02 | 0:36 |
 | A2.1 | 1:00 | 0:59 | 0:35 |
 | A1 | 0:47 | 0:32 | 0:27 |
+| feat/sec-internal-auth | 0:19 | 0:00 | 0:00 |
+| docs/internal-user-provisioning | 0:11 | 0:07 | 0:06 |
 | docs/dec-053-pos-coordinate-reference | 0:05 | 0:05 | 0:00 |
 | docs/dec-054-sourcing-benchmark | 0:05 | 0:05 | 0:00 |
-| docs/internal-user-provisioning | 0:04 | 0:00 | 0:00 |
 | docs/secrets-delivery | 0:01 | 0:01 | 0:00 |
 | docs/rule-business-questions-as-issues | 0:00 | 0:00 | 0:00 |
 | docs/implementation-roadmap | 0:00 | 0:00 | 0:00 |
