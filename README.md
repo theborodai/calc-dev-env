@@ -250,6 +250,14 @@ python3 worklog.py install-hook       # (пере)записати хуки в ~
 Перед зупинкою або видаленням codespace варто один раз виконати `python3 worklog.py sync`, щоб не залежати від
 хуків.
 
+### Рев'ю PR через revmux
+
+`install.sh` (крок 4) ставить [revmux](https://github.com/umputun/revmux) зафіксованої версії з перевіркою SHA-256
+і скіл `revmux@revmux` для Claude Code. Стандарт рев'ю (профіль проєкту, лінзи, профілі `code`, `spec`,
+`security-deep`) — у `.revmux/` репозиторію cost-calculator; архів запусків `.revmux/tasks/` не комітиться.
+Запуск — словами в сесії Claude Code: «revmux pr 281 профілем spec»; після виправлень — «re-review». Оновлення
+revmux: нова версія й SHA-256 з `revmux_<версія>_checksums.txt` релізу — у змінних на початку кроку 4.
+
 ## 7. Як рахується час
 
 `worklog.py` бере з транскриптів **лише мітки часу подій і назву гілки**, без змісту повідомлень. Стрічка подій

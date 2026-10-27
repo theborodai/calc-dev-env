@@ -41,7 +41,27 @@ fi
 # 3. Хуки в ~/.claude/settings.json.
 python3 "$DIR/worklog/worklog.py" install-hook
 
-# 4. Перший sync: дані з наявних транскриптів → коміт → push.
+# 4. revmux — мультиагентне рев'ю PR (стандарт рев'ю — .revmux/ у cost-calculator).
+#    Версія й SHA-256 зафіксовані тут: оновлення — свідома зміна цього файлу.
+REVMUX_VERSION=0.2.7
+REVMUX_SHA256=32e423bdf3204af98bac16c0387e044f992a9083def3f59dbce7a425508faaee
+if ! revmux --version 2>/dev/null | grep -q "^revmux v$REVMUX_VERSION-"; then
+  tmp=$(mktemp -d)
+  deb="$tmp/revmux_${REVMUX_VERSION}_linux_amd64.deb"
+  curl -fsSL -o "$deb" \
+    "https://github.com/umputun/revmux/releases/download/v$REVMUX_VERSION/revmux_${REVMUX_VERSION}_linux_amd64.deb"
+  echo "$REVMUX_SHA256  $deb" | sha256sum -c --quiet
+  sudo dpkg -i "$deb" >/dev/null
+  rm -rf "$tmp"
+fi
+# Скіл, що готує контекст і запускає revmux із сесії Claude Code.
+if command -v claude >/dev/null; then
+  claude plugin marketplace add umputun/revmux >/dev/null 2>&1 || true
+  claude plugin install revmux@revmux >/dev/null 2>&1 \
+    || echo "calc-dev-env: скіл revmux не встановлено — вручну: claude plugin install revmux@revmux" >&2
+fi
+
+# 5. Перший sync: дані з наявних транскриптів → коміт → push.
 python3 "$DIR/worklog/worklog.py" sync
 
 echo "calc-dev-env: готово. Перевірка — README §5."
