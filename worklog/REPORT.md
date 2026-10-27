@@ -1,19 +1,19 @@
 # Облік часу — theborodai
 
-Оновлено: 2026-10-27 20:56 (Europe/Kyiv). Поріг паузи: 15 хв. Формат — год:хв. Визначення — у [README.md](README.md).
+Оновлено: 2026-10-27 21:09 (Europe/Kyiv). Поріг паузи: 15 хв. Формат — год:хв. Визначення — у [README.md](README.md).
 
 | Період | Загальний | Мій | з них мої ходи |
 |---|---:|---:|---:|
-| Сьогодні | 0:50 | 0:46 | 0:33 |
-| Цей тиждень | 2:24 | 2:07 | 1:29 |
-| Цей місяць | 8:50 | 7:56 | 5:32 |
-| Усього | 8:50 | 7:56 | 5:32 |
+| Сьогодні | 1:04 | 1:02 | 0:46 |
+| Цей тиждень | 2:38 | 2:23 | 1:42 |
+| Цей місяць | 9:03 | 8:11 | 5:46 |
+| Усього | 9:03 | 8:11 | 5:46 |
 
 ## По днях
 
 | Дата | Загальний | Мій | з них мої ходи | Сесій | Пауз |
 |---|---:|---:|---:|---:|---:|
-| 2026-10-27 | 0:50 | 0:46 | 0:33 | 1 | 1 |
+| 2026-10-27 | 1:04 | 1:02 | 0:46 | 1 | 1 |
 | 2026-10-26 | 1:34 | 1:21 | 0:56 | 2 | 4 |
 | 2026-10-16 | 4:06 | 4:02 | 2:33 | 3 | 3 |
 | 2026-10-15 | 0:50 | 0:19 | 0:18 | 1 | 2 |
@@ -31,11 +31,11 @@
 | `feat/a2-jobs` | 1:03 | 1:02 |
 | `feat/a2-persistence` | 1:00 | 0:59 |
 | `feat/a1-skeleton` | 0:47 | 0:32 |
-| `feat/sec-internal-auth` | 0:37 | 0:27 |
+| `feat/sec-internal-auth` | 0:37 | 0:28 |
+| `docs/adr-007-supplier-data-acquisition` | 0:24 | 0:23 |
 | `fix/node-24.22.1` | 0:23 | 0:22 |
 | `fix/deps-audit` | 0:11 | 0:11 |
 | `docs/internal-user-provisioning` | 0:11 | 0:07 |
-| `docs/adr-007-supplier-data-acquisition` | 0:10 | 0:10 |
 | `docs/dec-053-pos-coordinate-reference` | 0:05 | 0:05 |
 | `docs/dec-054-sourcing-benchmark` | 0:05 | 0:05 |
 | `docs/secrets-delivery` | 0:01 | 0:01 |
@@ -55,11 +55,11 @@
 | A2.2 | 1:03 | 1:02 | 0:36 |
 | A2.1 | 1:00 | 0:59 | 0:35 |
 | A1 | 0:47 | 0:32 | 0:27 |
-| feat/sec-internal-auth | 0:37 | 0:27 | 0:08 |
+| feat/sec-internal-auth | 0:37 | 0:28 | 0:08 |
+| docs/adr-007-supplier-data-acquisition | 0:24 | 0:23 | 0:20 |
 | fix/node-24.22.1 | 0:23 | 0:22 | 0:17 |
 | fix/deps-audit | 0:11 | 0:11 | 0:05 |
 | docs/internal-user-provisioning | 0:11 | 0:07 | 0:06 |
-| docs/adr-007-supplier-data-acquisition | 0:10 | 0:10 | 0:07 |
 | docs/dec-053-pos-coordinate-reference | 0:05 | 0:05 | 0:00 |
 | docs/dec-054-sourcing-benchmark | 0:05 | 0:05 | 0:00 |
 | docs/secrets-delivery | 0:01 | 0:01 | 0:00 |
