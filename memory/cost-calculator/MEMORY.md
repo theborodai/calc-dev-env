@@ -3,4 +3,5 @@
 - [Team is user + Claude](team-is-user-plus-claude.md) — one human + Claude, one task at a time; no 2-dev parallelism in estimates
 - [Estimate calibration A1–A2](estimate-calibration-a.md) — estimates vs actual session time; ~10–15× faster than revised estimate
 - [calc-dev-env: time tracking + memory](dev-env-migration-pending.md) — private repo theborodai/calc-dev-env; 2 cleanup items left
-- [SEC implementation progress](sec-implementation-progress.md) — PR #278 (a) open; next (b) audit+grants+admin bootstrap, (c) UI
+- [SEC implementation progress](sec-implementation-progress.md) — PR #278 (a) open; #279 deps fix, undici override due 10-29; next (b), (c)
+- [REMINDER: undici/fast-uri overrides](reminder-deps-audit-undici.md) — remind user from 2026-10-29 (undici) and 2026-11-02 (fast-uri)

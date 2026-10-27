@@ -19,3 +19,5 @@ Decisions made in (a), user-approved: throttling counters in **PostgreSQL** (not
 External dependency: Google Workspace OAuth client registration — #276 (assigned to PO). Until (b), nobody can log in except via bindings inserted directly in DB.
 
 **How to apply:** on resume, check #278 review/merge status first; if merged, branch (b) from main. Time calibration row for SEC.a is in [[estimate-calibration-a]]. Related: [[team-is-user-plus-claude]].
+
+**Update 2026-10-27:** job `dependencies` (pnpm audit) red on main and #278 due to new advisories. PR #279 `fix/deps-audit` bumps zod/vite/fastify (closes 2 high). User chose to WAIT: on/after **2026-10-29** add `pnpm.overrides` undici>=8.12.2 (last high, dev-only; blocked by minimumReleaseAge 14d — no exceptions), fast-uri patches available from **2026-11-02**. Then rebase #278.
