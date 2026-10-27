@@ -14,4 +14,6 @@ Every new question to the business (PO, CISO, завод) — including follow-u
 
 **Don't over-escalate:** on 2026-10-26 the user rejected a PO issue for an audit-log viewer in the admin UI ("очевидно потрібний"; admin sees it since there's no security role). Internal admin/ops features that don't change customer-visible price/term/rights and need no business knowledge are the team's call (§11) — record them as a team decision in a PR, not as a question to PO.
 
+Also 2026-10-27: user rejected PO issues on (a) which suppliers to start with — "не обмежені послідовністю; головне принцип", connect whoever business has agreed; (b) manual price-list upload — all supplier data acquisition is automatic on behalf of the system (ADR.007, PR #281), no manual import; email-only suppliers are discussed if they ever appear.
+
 **How to apply:** before asking PO anything, also check whether the question is really the PO's (product semantics) or the team's (interpretation of an accepted decision, technical). Related: [[github-accounts-and-po]].
