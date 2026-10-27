@@ -1,6 +1,6 @@
 ---
 name: dev-env-migration-pending
-description: "Time tracking + Claude memory live in private repo theborodai/calc-dev-env (/workspaces/calc-dev-env); setup done 2026-10-16, 2 cleanup items left"
+description: "Time tracking + Claude memory live in private repo theborodai/calc-dev-env (/workspaces/calc-dev-env); setup done 2026-10-16, cleanup done"
 metadata:
   node_type: memory
   type: project
@@ -15,6 +15,6 @@ Private repo **`theborodai/calc-dev-env`** (NOT `dev-env`), clone `/workspaces/c
 - Token: env `$DEV_ENV_TOKEN` via credential helper; never print it or read `/workspaces/.codespaces/shared/.env-secrets`.
 - Auto-mode classifier blocks edits to hooks/settings/worklog.py and deletions — ask the user to switch to manual mode (Shift+Tab) for those.
 
-**Left (as of 2026-10-16):** (1) user to clear old `SessionEnd` hook in `/workspaces/cost-calculator/.claude/settings.local.json` (points to removed `/workspaces/cost-calculator.worklog`); (2) user's decision on deleting branch `worklog` in PO repo (local has 1 unpushed commit; data already copied). Old memory copy `/workspaces/.claude-persist/` can be removed after.
+**Left:** (1) done 2026-10-27 — stale `SessionEnd` hook removed by user. (2) done 2026-10-27 — branch `worklog` deleted from PO repo (local and origin); data had been copied to calc-dev-env. Old memory copy `/workspaces/.claude-persist/` can be removed after.
 
 Related: [[estimate-calibration-a]], [[team-is-user-plus-claude]].
