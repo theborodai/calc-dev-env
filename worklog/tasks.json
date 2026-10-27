@@ -1,7 +1,12 @@
 [
-  ["feat/a1-*",              "A1"],
-  ["feat/a2-persistence",    "A2.1"],
-  ["feat/a2-jobs",           "A2.2"],
-  ["feat/a2-object-storage", "A2.3"],
-  ["main",                   "обговорення"]
+  ["feat/a1-*",               "A1"],
+  ["feat/a2-persistence",     "A2.1"],
+  ["feat/a2-jobs",            "A2.2"],
+  ["feat/a2-object-storage",  "A2.3"],
+  ["feat/sec-*",              "SEC (#193)"],
+  ["fix/deps-audit",          "залежності: аудит"],
+  ["fix/node-*",              "Node 24.22.1"],
+  ["docs/adr-007-*",          "ADR.007 постачальники"],
+  ["chore/revmux-*",          "revmux"],
+  ["main",                    "обговорення"]
 ]
