@@ -8,4 +8,4 @@
 - [ADR.007 review progress](adr007-review-progress.md) — PR #281 revmux round 2: 1–3 done, continue from finding 4; PO issues #282/#284/#285
 - [Review findings one by one](review-findings-one-by-one.md) — discuss findings point by point in plain language before fixing; no mid-list re-runs
 - [PRs held for PO](pr-queue-po-blocked.md) — #267 waits PO #269 (user's call), #263 waits #267; #268 answers → DEC.053 Уточнення PR
-- [PR #278 revmux progress](pr278-revmux-progress.md) — round 01: all 5 points fixed (79574eb..), not pushed; next: revmux round 02 (final) then push
+- [PR #278 revmux progress](pr278-revmux-progress.md) — round 01: rounds 01+02 fixed and pushed (79574eb..dd715ed), PR body updated; awaiting user review + undici override
