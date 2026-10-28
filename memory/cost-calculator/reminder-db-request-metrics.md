@@ -1,12 +1,12 @@
 ---
 name: reminder-db-request-metrics
-description: "REMIND USER after the PR #278 walkthrough: discuss DB and tracking of request intensity/processing time per operation (DEBUG log or metric)"
+description: "REMIND USER every session until decided: plan observability/metrics (DB writes like last_seen_at/throttle/attempts, external calls, heavy jobs) to find bottlenecks"
 metadata:
   type: project
 ---
 
-2026-10-28, during PR #278 block-by-block walkthrough (after block 4), user asked to be reminded later — don't discuss now:
-- a question about the DB;
-- observability of request intensity and processing speed: idea — in DEBUG mode log or emit a metric of how many requests each operation got and how long they took.
+Raised by user 2026-10-28 while reviewing PR #278 (temporary rows in DB, `last_seen_at` touches, throttle counters). Want observability of where the system bottlenecks: DB query count/latency, external calls (Google OIDC, suppliers, Odoo), heavy processes (Jobs, parsing, calculation). Initial idea: in DEBUG mode log or emit a metric of request count and processing time per operation. User: "питання метрік треба підняти і запланувати", not ready to decide yet — **remind at the start of each session until a decision is made**; delete this memory once decided (issue/ADR/plan).
 
-**How to apply:** raise it when the #278 walkthrough (blocks 5–7) is finished, or at next session start if not yet discussed; delete this memory once discussed. Related: [[pr278-revmux-progress]].
+Context already established: HTTP requests are logged per request (`onResponse` hook in `server.ts`: route template, method, status, durationMs, referenceId at info). No DB query timing in `platform/database/postgres.ts`, no metrics/transport. Spec `operations-runtime.md` §7 `OPS.MET.001` requires low-cardinality metrics (HTTP latency by route, Job duration, adapter latency, DB capacity…), labels without UUID/email/customer; metric transport/aggregator is a platform adapter, depends on infra choice (#217, #282).
+
+**How to apply:** briefly remind; if user wants to proceed, natural first step is a team-internal technical GitHub issue (not a PO question) scoping metrics + transport, possibly an ADR. Related: [[pr278-revmux-progress]].
