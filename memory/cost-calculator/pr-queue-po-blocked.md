@@ -1,18 +1,22 @@
 ---
 name: pr-queue-po-blocked
-description: "PR/PO queue as of 2026-10-28 evening: #266/#267/#278 merged; #263 plan updated and ready; open PO issues #291/#292; formalization backlog"
+description: "Project state at pause 2026-10-28 ~24:00 Kyiv: merged PRs, plan 006/007 structure, open PO issues, agreed next-work order"
 metadata:
   type: project
 ---
 
-2026-10-28: #266 (DEC.053), #267 (DEC.054 with #269 answers), #278 (SEC a) merged by user. #263 (plans 006/007) rebased, updated with PO's "first result = stages 0–3, employees only" (§1.1, 21f2b04), CI doc-ids green — awaiting user merge.
+**Merged 2026-10-28:** #266 (DEC.053), #267 (DEC.054 + #269 answers: Admin arbitrates, SRC.BEN.004/006, ROLE.005), #278 (SEC a, OIDC login), #263 (plans 006/007).
 
-PO answered on 10-28: #268 (stricter Q3: missing/conflicting coordinate reference blocks Engineering review / VERIFIED_QUOTE), #269, #284 (Purchasing owns freshness per SupplierSource × data class), #285 (supplier failure + full coverage → Purchasing warning, blocks VERIFIED_QUOTE until recalc/accept), #282 (user/Ivan must write infra spec for IT head), #286 finished (policy for all component classes).
+**Plan vocabulary (renumbered to PO's, user-approved):** stage 0 skeleton (in_progress: SEC b, c left); **stage 1 = PO's first stage "sourcing-контур для співробітників"** with parts 1.1 BOM (plan 007), 1.2 catalog & sourcing params, 1.3 supplier/stock search + purchase algorithm + comparison (plan 008, not yet written); then 2 PCB/POS, 3 pricing/Estimate, 4 production, 5 customer/order, 6 pilot. Demo after each part, one acceptance for stage 1. No customers in stage 1.
 
-Open PO questions created 10-28: #291 (who reviews BOM analysis in stage 1), #292 (calibration baseline: purchaser decision vs actual purchase; does purchaser buy per system decision). Still to create: plan 007 §3 BOM mapping-profile reuse question.
+**Plan 007 (part 1.1) key points:** BOM → per-line technical requirement or explained problem; suitability report; classification per #286 (MPN vs parameters by class), PackageAlias #288; two dimensions — requirement completeness (1.1) vs candidate result (1.3); `sourcing-selection.md` §2.42 allows only exact MPN/approved alts → parametric search needs change (1.3); default values (power per package etc.) have no numbers/owner yet.
 
-Formalization backlog agreed order: DEC.053 «Уточнення» for #268 → #284/#285 DEC + continue #281 review from finding 4 → #282 infra spec → #288 → #287 → #286.
+**Plan 008 (next, separate PR):** parts 1.2–1.3 — parametric candidate search (#286) vs §2.42, candidate source (local catalog vs supplier parametric search; CISO #231 covers MPN queries only), #287 lifecycle, #284/#285, comparison model SRC.BEN + #292, SRC-* values (#216), Odoo stock.
 
-Force-push after rebase is blocked by auto-mode classifier → ask user to run `! git push --force-with-lease=<branch>:<sha> ...` themselves.
+**Open PO issues:** #291 (who reviews BOM analysis), #292 (calibration baseline / does purchaser buy per system decision), #293 (BOM column mapping profile). #282: Ivan (user) must write infra spec for IT head.
 
-**How to apply:** at session start check #291/#292 answers. Related: [[adr007-review-progress]], [[po-questions-separate-issues]].
+**Agreed next-work order:** plan 008 → DEC.053 «Уточнення» for #268 (stricter Q3: missing/conflicting coordinate reference blocks Engineering review/VERIFIED_QUOTE) → #284/#285 DEC + continue #281 review from finding 4 → #282 infra spec → #288 → #286 (→ #287 with 008). SEC (b) also pending.
+
+Force-push after rebase is blocked by auto-mode classifier → ask user to run `! git push --force-with-lease=<branch>:<sha> ...`.
+
+**How to apply:** at session start check #291/#292/#293 answers and remind undici override (due 2026-10-29 after 15:05 UTC). Related: [[adr007-review-progress]], [[sec-implementation-progress]], [[reminder-deps-audit-undici]], [[reminder-db-request-metrics]].

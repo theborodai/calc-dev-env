@@ -4,8 +4,8 @@
 - [Estimate calibration A1–A2](estimate-calibration-a.md) — estimates vs actual session time; ~10–15× faster than revised estimate
 - [calc-dev-env: time tracking + memory](dev-env-migration-pending.md) — private repo theborodai/calc-dev-env; installs revmux; migration cleanup done
 - [SEC implementation progress](sec-implementation-progress.md) — (a) #278 MERGED 2026-10-28; next PR (b) audit+roles+registration, then (c)
-- [REMINDER: undici/fast-uri overrides](reminder-deps-audit-undici.md) — remind user from 2026-10-29 (undici) and 2026-11-02 (fast-uri)
+- [REMINDER: undici/fast-uri overrides](reminder-deps-audit-undici.md) — remind user from 2026-10-29 15:05 UTC (undici 8.12.2 passes 14-day age) and 2026-11-02 (fast-uri)
 - [ADR.007 review progress](adr007-review-progress.md) — PR #281 revmux round 2: 1–3 done, continue from finding 4; PO issues #282/#284/#285
 - [Review findings one by one](review-findings-one-by-one.md) — discuss findings point by point in plain language before fixing; no mid-list re-runs
-- [PR/PO queue](pr-queue-po-blocked.md) — 10-28: #263 ready to merge; open PO #291/#292; backlog DEC.053→#284/285+#281→#282→#288→#287→#286; force-push needs user
+- [Project state / PR-PO queue](pr-queue-po-blocked.md) — pause 10-28: #263/#267/#278 merged; stage 1 = PO sourcing contour (1.1 BOM plan 007, 1.2–1.3 plan 008 next); PO #291–293 open; next-work order
 - [REMINDER: metrics/observability](reminder-db-request-metrics.md) — remind every session until decided: DB, external calls, heavy jobs bottlenecks
