@@ -7,3 +7,4 @@
 - [REMINDER: undici/fast-uri overrides](reminder-deps-audit-undici.md) — remind user from 2026-10-29 (undici) and 2026-11-02 (fast-uri)
 - [ADR.007 review progress](adr007-review-progress.md) — PR #281 revmux round 2: 1–3 done, continue from finding 4; PO issues #282/#284/#285
 - [Review findings one by one](review-findings-one-by-one.md) — discuss findings point by point in plain language before fixing; no mid-list re-runs
+- [PRs held for PO](pr-queue-po-blocked.md) — #267 waits PO #269 (user's call), #263 waits #267; #268 answers → DEC.053 Уточнення PR
