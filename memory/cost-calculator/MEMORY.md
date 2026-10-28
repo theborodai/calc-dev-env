@@ -9,3 +9,4 @@
 - [Review findings one by one](review-findings-one-by-one.md) — discuss findings point by point in plain language before fixing; no mid-list re-runs
 - [PRs held for PO](pr-queue-po-blocked.md) — #267 waits PO #269 (user's call), #263 waits #267; #268 answers → DEC.053 Уточнення PR
 - [PR #278 revmux progress](pr278-revmux-progress.md) — round 01: rounds 01+02 fixed and pushed (79574eb..dd715ed), PR body updated; awaiting user review + undici override
+- [REMINDER: DB + request metrics](reminder-db-request-metrics.md) — raise after #278 walkthrough: DEBUG per-operation request count/latency
