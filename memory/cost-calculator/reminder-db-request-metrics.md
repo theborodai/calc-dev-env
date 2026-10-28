@@ -9,4 +9,4 @@ Raised by user 2026-10-28 while reviewing PR #278 (temporary rows in DB, `last_s
 
 Context already established: HTTP requests are logged per request (`onResponse` hook in `server.ts`: route template, method, status, durationMs, referenceId at info). No DB query timing in `platform/database/postgres.ts`, no metrics/transport. Spec `operations-runtime.md` §7 `OPS.MET.001` requires low-cardinality metrics (HTTP latency by route, Job duration, adapter latency, DB capacity…), labels without UUID/email/customer; metric transport/aggregator is a platform adapter, depends on infra choice (#217, #282).
 
-**How to apply:** briefly remind; if user wants to proceed, natural first step is a team-internal technical GitHub issue (not a PO question) scoping metrics + transport, possibly an ADR. Related: [[pr278-revmux-progress]].
+**How to apply:** briefly remind; if user wants to proceed, natural first step is a team-internal technical GitHub issue (not a PO question) scoping metrics + transport, possibly an ADR. Related: [[sec-implementation-progress]].

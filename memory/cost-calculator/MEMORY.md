@@ -3,10 +3,9 @@
 - [Team is user + Claude](team-is-user-plus-claude.md) — one human + Claude, one task at a time; no 2-dev parallelism in estimates
 - [Estimate calibration A1–A2](estimate-calibration-a.md) — estimates vs actual session time; ~10–15× faster than revised estimate
 - [calc-dev-env: time tracking + memory](dev-env-migration-pending.md) — private repo theborodai/calc-dev-env; installs revmux; migration cleanup done
-- [SEC implementation progress](sec-implementation-progress.md) — PR #278 (a) open, rebased + security-review fixes 10-27; undici override due 10-29; next (b), (c)
+- [SEC implementation progress](sec-implementation-progress.md) — (a) #278 MERGED 2026-10-28; next PR (b) audit+roles+registration, then (c)
 - [REMINDER: undici/fast-uri overrides](reminder-deps-audit-undici.md) — remind user from 2026-10-29 (undici) and 2026-11-02 (fast-uri)
 - [ADR.007 review progress](adr007-review-progress.md) — PR #281 revmux round 2: 1–3 done, continue from finding 4; PO issues #282/#284/#285
 - [Review findings one by one](review-findings-one-by-one.md) — discuss findings point by point in plain language before fixing; no mid-list re-runs
-- [PRs held for PO](pr-queue-po-blocked.md) — #267 waits PO #269 (user's call), #263 waits #267; #268 answers → DEC.053 Уточнення PR
-- [PR #278 revmux progress](pr278-revmux-progress.md) — round 01: rounds 01+02 fixed and pushed (79574eb..dd715ed), PR body updated; awaiting user review + undici override
+- [PRs held for PO](pr-queue-po-blocked.md) — PO answered #269 on 10-28 → #267 updated (0c9e484), awaiting merge; #263 after it
 - [REMINDER: metrics/observability](reminder-db-request-metrics.md) — remind every session until decided: DB, external calls, heavy jobs bottlenecks
