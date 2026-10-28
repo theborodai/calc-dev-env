@@ -1,19 +1,19 @@
 # Облік часу — theborodai
 
-Оновлено: 2026-10-28 23:20 (Europe/Kyiv). Поріг паузи: 15 хв. Формат — год:хв. Визначення — у [README.md](README.md).
+Оновлено: 2026-10-28 23:35 (Europe/Kyiv). Поріг паузи: 15 хв. Формат — год:хв. Визначення — у [README.md](README.md).
 
 | Період | Загальний | Мій | з них мої ходи |
 |---|---:|---:|---:|
-| Сьогодні | 3:07 | 3:02 | 1:20 |
-| Цей тиждень | 8:35 | 8:15 | 5:02 |
-| Цей місяць | 15:00 | 14:04 | 9:05 |
-| Усього | 15:00 | 14:04 | 9:05 |
+| Сьогодні | 3:22 | 3:07 | 1:24 |
+| Цей тиждень | 8:50 | 8:21 | 5:06 |
+| Цей місяць | 15:16 | 14:09 | 9:10 |
+| Усього | 15:16 | 14:09 | 9:10 |
 
 ## По днях
 
 | Дата | Загальний | Мій | з них мої ходи | Сесій | Пауз |
 |---|---:|---:|---:|---:|---:|
-| 2026-10-28 | 3:07 | 3:02 | 1:20 | 2 | 3 |
+| 2026-10-28 | 3:22 | 3:07 | 1:24 | 2 | 3 |
 | 2026-10-27 | 3:54 | 3:52 | 2:45 | 1 | 1 |
 | 2026-10-26 | 1:34 | 1:21 | 0:56 | 2 | 4 |
 | 2026-10-16 | 4:06 | 4:02 | 2:33 | 3 | 3 |
@@ -36,14 +36,14 @@
 | `feat/a2-persistence` | 1:00 | 0:59 |
 | `feat/a1-skeleton` | 0:47 | 0:32 |
 | `fix/node-24.22.1` | 0:23 | 0:22 |
+| `docs/dec-054-sourcing-benchmark` | 0:13 | 0:10 |
 | `fix/deps-audit` | 0:11 | 0:11 |
 | `docs/internal-user-provisioning` | 0:11 | 0:07 |
-| `docs/dec-054-sourcing-benchmark` | 0:08 | 0:05 |
+| `docs/implementation-roadmap` | 0:10 | 0:00 |
 | `docs/dec-053-pos-coordinate-reference` | 0:05 | 0:05 |
 | `docs/secrets-delivery` | 0:01 | 0:01 |
 | `HEAD` | 0:00 | 0:00 |
 | `docs/rule-business-questions-as-issues` | 0:00 | 0:00 |
-| `docs/implementation-roadmap` | 0:00 | 0:00 |
 | `worktree-agent-acd3a76295b28e6e6` | 0:00 | 0:00 |
 
 ## По задачах (усього)
@@ -61,12 +61,12 @@
 | A2.1 | 1:00 | 0:59 | 0:35 |
 | A1 | 0:47 | 0:32 | 0:27 |
 | Node 24.22.1 | 0:23 | 0:22 | 0:17 |
+| docs/dec-054-sourcing-benchmark | 0:13 | 0:10 | 0:04 |
 | залежності: аудит | 0:11 | 0:11 | 0:05 |
 | docs/internal-user-provisioning | 0:11 | 0:07 | 0:06 |
-| docs/dec-054-sourcing-benchmark | 0:08 | 0:05 | 0:00 |
+| docs/implementation-roadmap | 0:10 | 0:00 | 0:00 |
 | docs/dec-053-pos-coordinate-reference | 0:05 | 0:05 | 0:00 |
 | docs/secrets-delivery | 0:01 | 0:01 | 0:00 |
 | HEAD | 0:00 | 0:00 | 0:00 |
 | docs/rule-business-questions-as-issues | 0:00 | 0:00 | 0:00 |
-| docs/implementation-roadmap | 0:00 | 0:00 | 0:00 |
 | worktree-agent-acd3a76295b28e6e6 | 0:00 | 0:00 | 0:00 |
