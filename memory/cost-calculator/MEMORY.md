@@ -5,7 +5,7 @@
 - [calc-dev-env: time tracking + memory](dev-env-migration-pending.md) — private repo theborodai/calc-dev-env; installs revmux; migration cleanup done
 - [SEC implementation progress](sec-implementation-progress.md) — (a) #278 MERGED 2026-10-28; next PR (b) audit+roles+registration, then (c)
 - [REMINDER: undici/fast-uri overrides](reminder-deps-audit-undici.md) — remind user from 2026-10-29 15:05 UTC (undici 8.12.2 passes 14-day age) and 2026-11-02 (fast-uri)
-- [ADR.007 review progress](adr007-review-progress.md) — PR #281 revmux round 2: 1–3 done, continue from finding 4; PO issues #282/#284/#285
+- [ADR.007 review progress](adr007-review-progress.md) — PR #281 aligned with #231/#284 on 11-03; open findings 4, 6–11; DEC for #284/#285 needed
 - [Review findings one by one](review-findings-one-by-one.md) — discuss findings point by point in plain language before fixing; no mid-list re-runs
-- [Project state / PR-PO queue](pr-queue-po-blocked.md) — pause 10-28: #263/#267/#278 merged; stage 1 = PO sourcing contour (1.1 BOM plan 007, 1.2–1.3 plan 008 next); PO #291–293 open; next-work order
+- [Project state / PR-PO queue](pr-queue-po-blocked.md) — 11-03: CISO PR merge order #314→#312→#313→#316→#315→#281; CISO #319; supplier priority gap; PO #291–293 open
 - [REMINDER: metrics/observability](reminder-db-request-metrics.md) — remind every session until decided: DB, external calls, heavy jobs bottlenecks

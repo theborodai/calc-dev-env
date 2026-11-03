@@ -20,3 +20,5 @@ metadata:
 Force-push after rebase is blocked by auto-mode classifier → ask user to run `! git push --force-with-lease=<branch>:<sha> ...`.
 
 **How to apply:** at session start check #291/#292/#293 answers and remind undici override (due 2026-10-29 after 15:05 UTC). Related: [[adr007-review-progress]], [[sec-implementation-progress]], [[reminder-deps-audit-undici]], [[reminder-db-request-metrics]].
+
+**Update 2026-11-03 — CISO docs PRs:** merge order agreed: #314 → #312 → #313 → #316 (rebase, manual merge §3.13/SEC.AUTH.002 with #313) → #315 (rebase on #312) → #281. Edits pushed to 312/314/315/316. User accepted «3 years then delete within 24h». New CISO issue #319 (retention of project files with no CalculationRun; proposal: configurable period then delete). Gap marked in #315 (sourcing spec after SRC.SUP.001): no supplier priority logic (what is «insufficient» at preferred, is cheaper LCSC rejected) — LCSC not enabled until defined; belongs to plan 008 (offer PO issue). SEC (b) should start after #313 (grant expiresAt ≤12m).
