@@ -4,9 +4,8 @@
 - [Estimate calibration A1–A2](estimate-calibration-a.md) — estimates vs actual session time; ~10–15× faster than revised estimate
 - [calc-dev-env: time tracking + memory](dev-env-migration-pending.md) — private repo theborodai/calc-dev-env; installs revmux; migration cleanup done
 - [SEC implementation progress](sec-implementation-progress.md) — (a) #278 MERGED 2026-10-28; next PR (b) audit+roles+registration, then (c)
-- [REMINDER: undici/fast-uri overrides](reminder-deps-audit-undici.md) — PR #320 opened 11-03; delete memory after merge
 - [ADR.007 review progress](adr007-review-progress.md) — PR #281 aligned with #231/#284 on 11-03; open findings 4, 6–11; DEC for #284/#285 needed
 - [Review findings one by one](review-findings-one-by-one.md) — discuss findings point by point in plain language before fixing; no mid-list re-runs
-- [Project state / PR-PO queue](pr-queue-po-blocked.md) — 11-03: CISO PR merge order #314→#312→#313→#316→#315→#281; CISO #319; supplier priority gap; PO #291–293 open
+- [Project state / PR-PO queue](pr-queue-po-blocked.md) — 11-03: CISO PRs all merged; PR.324 pending → close Issue.152/208; next PR.281 findings 4, 6–11
 - [REMINDER: metrics/observability](reminder-db-request-metrics.md) — remind every session until decided: DB, external calls, heavy jobs bottlenecks
 - [PR/Issue number prefix](pr-issue-number-prefix.md) — PR.312 / Issue.319 in chat; PR.312 (#312) in GitHub texts and docs
