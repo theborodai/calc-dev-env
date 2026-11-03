@@ -1,19 +1,19 @@
 # Облік часу — theborodai
 
-Оновлено: 2026-11-03 13:58 (Europe/Kyiv). Поріг паузи: 15 хв. Формат — год:хв. Визначення — у [README.md](README.md).
+Оновлено: 2026-11-03 14:10 (Europe/Kyiv). Поріг паузи: 15 хв. Формат — год:хв. Визначення — у [README.md](README.md).
 
 | Період | Загальний | Мій | з них мої ходи |
 |---|---:|---:|---:|
-| Сьогодні | 1:08 | 1:00 | 0:51 |
-| Цей тиждень | 1:08 | 1:00 | 0:51 |
-| Цей місяць | 1:08 | 1:00 | 0:51 |
-| Усього | 16:51 | 15:47 | 10:20 |
+| Сьогодні | 1:19 | 1:10 | 0:59 |
+| Цей тиждень | 1:19 | 1:10 | 0:59 |
+| Цей місяць | 1:19 | 1:10 | 0:59 |
+| Усього | 17:03 | 15:58 | 10:28 |
 
 ## По днях
 
 | Дата | Загальний | Мій | з них мої ходи | Сесій | Пауз |
 |---|---:|---:|---:|---:|---:|
-| 2026-11-03 | 1:08 | 1:00 | 0:51 | 2 | 1 |
+| 2026-11-03 | 1:19 | 1:10 | 0:59 | 2 | 1 |
 | 2026-10-29 | 0:03 | 0:02 | 0:02 | 1 | 0 |
 | 2026-10-28 | 3:47 | 3:43 | 1:42 | 2 | 3 |
 | 2026-10-27 | 3:54 | 3:52 | 2:45 | 1 | 1 |
@@ -29,11 +29,11 @@
 
 | Гілка | Загальний | Мій |
 |---|---:|---:|
-| `main` | 3:41 | 3:22 |
+| `main` | 3:42 | 3:22 |
 | `docs/adr-007-supplier-data-acquisition` | 2:13 | 2:09 |
 | `feat/sec-internal-auth` | 2:00 | 1:52 |
 | `feat/a2-object-storage` | 1:50 | 1:47 |
-| `docs/implementation-roadmap` | 1:37 | 1:33 |
+| `docs/implementation-roadmap` | 1:46 | 1:42 |
 | `chore/revmux-review-standard` | 1:29 | 1:29 |
 | `feat/a2-jobs` | 1:03 | 1:02 |
 | `feat/a2-persistence` | 1:00 | 0:59 |
@@ -46,12 +46,13 @@
 | `fix/deps-audit-overrides` | 0:03 | 0:03 |
 | `docs/ciso-supplier-minimization-231` | 0:01 | 0:00 |
 | `docs/ciso-pcb-transfer-link-nda-295-305` | 0:01 | 0:00 |
+| `docs/ciso-upload-auth-ops-limits-218` | 0:01 | 0:01 |
 | `docs/secrets-delivery` | 0:01 | 0:01 |
 | `docs/ciso-retention-152-299-302` | 0:00 | 0:00 |
+| `docs/dec-026-retention-ref` | 0:00 | 0:00 |
 | `HEAD` | 0:00 | 0:00 |
 | `docs/ciso-customer-auth-access-208-218-294-304` | 0:00 | 0:00 |
 | `docs/rule-business-questions-as-issues` | 0:00 | 0:00 |
-| `docs/ciso-upload-auth-ops-limits-218` | 0:00 | 0:00 |
 | `worktree-agent-acd3a76295b28e6e6` | 0:00 | 0:00 |
 
 ## По задачах (усього)
@@ -60,11 +61,11 @@
 
 | Задача | Загальний | Мій | з них мої ходи |
 |---|---:|---:|---:|
-| обговорення | 3:41 | 3:22 | 2:35 |
+| обговорення | 3:42 | 3:22 | 2:35 |
 | ADR.007 постачальники | 2:13 | 2:09 | 1:45 |
 | SEC (#193) | 2:00 | 1:52 | 0:20 |
 | A2.3 | 1:50 | 1:47 | 1:13 |
-| docs/implementation-roadmap | 1:37 | 1:33 | 1:10 |
+| docs/implementation-roadmap | 1:46 | 1:42 | 1:18 |
 | revmux | 1:29 | 1:29 | 1:05 |
 | A2.2 | 1:03 | 1:02 | 0:36 |
 | A2.1 | 1:00 | 0:59 | 0:35 |
@@ -77,10 +78,11 @@
 | fix/deps-audit-overrides | 0:03 | 0:03 | 0:00 |
 | docs/ciso-supplier-minimization-231 | 0:01 | 0:00 | 0:00 |
 | docs/ciso-pcb-transfer-link-nda-295-305 | 0:01 | 0:00 | 0:00 |
+| docs/ciso-upload-auth-ops-limits-218 | 0:01 | 0:01 | 0:00 |
 | docs/secrets-delivery | 0:01 | 0:01 | 0:00 |
 | docs/ciso-retention-152-299-302 | 0:00 | 0:00 | 0:00 |
+| docs/dec-026-retention-ref | 0:00 | 0:00 | 0:00 |
 | HEAD | 0:00 | 0:00 | 0:00 |
 | docs/ciso-customer-auth-access-208-218-294-304 | 0:00 | 0:00 | 0:00 |
 | docs/rule-business-questions-as-issues | 0:00 | 0:00 | 0:00 |
-| docs/ciso-upload-auth-ops-limits-218 | 0:00 | 0:00 | 0:00 |
 | worktree-agent-acd3a76295b28e6e6 | 0:00 | 0:00 | 0:00 |
