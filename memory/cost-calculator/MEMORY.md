@@ -9,3 +9,4 @@
 - [Review findings one by one](review-findings-one-by-one.md) — discuss findings point by point in plain language before fixing; no mid-list re-runs
 - [Project state / PR-PO queue](pr-queue-po-blocked.md) — 11-03: CISO PR merge order #314→#312→#313→#316→#315→#281; CISO #319; supplier priority gap; PO #291–293 open
 - [REMINDER: metrics/observability](reminder-db-request-metrics.md) — remind every session until decided: DB, external calls, heavy jobs bottlenecks
+- [PR/Issue number prefix](pr-issue-number-prefix.md) — PR.312 / Issue.319 in chat; PR.312 (#312) in GitHub texts and docs
