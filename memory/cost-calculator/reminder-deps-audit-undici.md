@@ -17,3 +17,5 @@ Context: PR #279 (zod/vite/fastify bumps) already closes the other highs. Delete
 
 **Why:** `minimumReleaseAge` 14 days (dependency-management.md §1.11) blocks the patches until those dates; high SCA findings block PRs (§3.6).
 **How to apply:** check today's date vs. above; if due, remind first. Related: [[sec-implementation-progress]].
+
+**2026-11-03:** done in PR #320 (overrides in pnpm-workspace.yaml, audit high green). After merge — delete this memory; open PRs need main merged to get green `dependencies`. 4 new moderates (seroval, minimatch, glob) left.
