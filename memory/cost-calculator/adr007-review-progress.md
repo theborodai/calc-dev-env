@@ -31,3 +31,4 @@ Then run revmux round 3.
 **Update 2026-11-04:** Finding 8 DONE (a1682d5): §2.12 — no TX/DB connection during provider call, in-process single-flight, lease row only if metrics show cross-process dups; TEST.SUP.001 extended. Next: 9, 10, 11, revmux round 3, DEC 284/285.
 **Update 2026-11-04 (later):** Finding 9 DONE (with option A, user): API provider default = ON_DEMAND + cache; TRACKED_REFRESH enabled per provider only when gateway metrics show rate-limit/quota pressure (it doesn't reduce total requests, only removes calc-time peaks + outage resilience). p.6 now says refresh repeats pairs from past calcs on schedule → demand profile → off for fallback. Next: 10, 11, revmux r3.
 **Finding 10 DONE** (README decisions row). Next: 11 (PR description), revmux r3.
+**Finding 11 DONE** (PR body rewritten 11-04). All round-2 findings closed. Next: revmux round 3 (task pr-281), then DEC for Issue.284/285 before merge.
