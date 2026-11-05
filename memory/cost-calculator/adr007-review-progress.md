@@ -54,3 +54,4 @@ User: EST.FRESH.003 three checkpoints stay (PO approved) — not to be changed. 
 2. **revmux round 5, short:** only diff since 47af094 (state at round 4, 11-04 21:10): b772131, 9aaed08 (SRC.CCH.001), 7fdc97b + consistency of new SRC.CCH.001 with supplier-gateway/sourcing-selection/tests and PO #284. No full re-review.
 3. **DEC for #284/#285** as separate PR, merged before PR.281.
 4. Merge PR.281. Then triage all open issues (escalate PO/CISO waits, close/act on ours).
+**11-05 (back to PR.281):** remaining before merge — (1) Issue.331 created for PO: one maxFreshness per supplier vs PO's #284 two data classes (blocks merge; option B → restore data class in ADR p.4 + SRC.CCH.001); (2) revmux round 5 only on diff 47af094..HEAD (b772131, 9aaed08, 7fdc97b — not reviewed by R4) + SRC.CCH.001 consistency; (3) DEC #284/#285 separate PR merged first; (4) merge PR.281.
