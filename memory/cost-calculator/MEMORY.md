@@ -4,7 +4,7 @@
 - [Estimate calibration A1–A2](estimate-calibration-a.md) — estimates vs actual session time; ~10–15× faster than revised estimate
 - [calc-dev-env: time tracking + memory](dev-env-migration-pending.md) — private repo theborodai/calc-dev-env; installs revmux; migration cleanup done
 - [SEC implementation progress](sec-implementation-progress.md) — (a) #278 MERGED 2026-10-28; next PR (b) audit+roles+registration, then (c)
-- [ADR.007 review progress](adr007-review-progress.md) — 11-04: PR.281 11-04: R3 findings all closed; next r4?/DEC 284/285, horizon Issue
+- [ADR.007 review progress](adr007-review-progress.md) — PAUSED 11-04: PR.281 final review in progress (r1–r4 done); next: state overview, DEC 284/285, then triage all open issues
 - [Review findings one by one](review-findings-one-by-one.md) — discuss findings point by point in plain language before fixing; no mid-list re-runs
 - [Project state / PR-PO queue](pr-queue-po-blocked.md) — 11-03: CISO PRs + PR.324 merged, issues closed; next PR.281 findings 4, 6–11
 - [PR/Issue number prefix](pr-issue-number-prefix.md) — PR.312 / Issue.319 in chat; PR.312 (#312) in GitHub texts and docs
