@@ -27,3 +27,4 @@ metadata:
 **Stopped at (2026-11-05 ~14:50 Kyiv):** PR.329 open, awaiting user/PM feedback and merge. Working tree on branch `docs/plan-008-stage-1-breakdown`, clean.
 
 **Next step on resume:** ask whether PR.329 needs edits / PM feedback, then merge (user merges). Possible follow-ups (not agreed yet): GitHub milestone + Issues per block; keep statuses in plan 008 updated; formalize the 7 PO answers in DEC (#284/285/286/290/291/292/293). After decomposition — return to the parked list in [[adr007-review-progress]] (PR.281 overview, DEC #284/#285, triage all open issues).
+**11-05:** PR.329 merged by user. Estimate section (≈29–52 working days, conditional, approximate) → PR.330 (branch docs/plan-008-stage-1-estimate). Stale remote branch docs/plan-008-stage-1-breakdown recreated by my push — deletion was blocked; user can delete it.

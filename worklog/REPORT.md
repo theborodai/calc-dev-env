@@ -1,19 +1,19 @@
 # Облік часу — theborodai
 
-Оновлено: 2026-11-05 14:52 (Europe/Kyiv). Поріг паузи: 15 хв. Формат — год:хв. Визначення — у [README.md](README.md).
+Оновлено: 2026-11-05 15:03 (Europe/Kyiv). Поріг паузи: 15 хв. Формат — год:хв. Визначення — у [README.md](README.md).
 
 | Період | Загальний | Мій | з них мої ходи |
 |---|---:|---:|---:|
-| Сьогодні | 1:06 | 1:03 | 0:51 |
-| Цей тиждень | 5:19 | 5:01 | 4:06 |
-| Цей місяць | 5:19 | 5:01 | 4:06 |
-| Усього | 21:02 | 19:48 | 13:35 |
+| Сьогодні | 1:17 | 1:12 | 1:00 |
+| Цей тиждень | 5:29 | 5:10 | 4:14 |
+| Цей місяць | 5:29 | 5:10 | 4:14 |
+| Усього | 21:12 | 19:57 | 13:43 |
 
 ## По днях
 
 | Дата | Загальний | Мій | з них мої ходи | Сесій | Пауз |
 |---|---:|---:|---:|---:|---:|
-| 2026-11-05 | 1:06 | 1:03 | 0:51 | 4 | 3 |
+| 2026-11-05 | 1:17 | 1:12 | 1:00 | 4 | 4 |
 | 2026-11-04 | 2:18 | 2:14 | 1:47 | 1 | 3 |
 | 2026-11-03 | 1:54 | 1:44 | 1:27 | 2 | 3 |
 | 2026-10-29 | 0:03 | 0:02 | 0:02 | 1 | 0 |
@@ -41,10 +41,10 @@
 | `feat/a2-persistence` | 1:00 | 0:59 |
 | `feat/a1-skeleton` | 0:47 | 0:32 |
 | `fix/node-24.22.1` | 0:23 | 0:22 |
+| `docs/plan-008-stage-1-breakdown` | 0:18 | 0:16 |
 | `docs/dec-054-sourcing-benchmark` | 0:13 | 0:11 |
 | `fix/deps-audit` | 0:11 | 0:11 |
 | `docs/internal-user-provisioning` | 0:11 | 0:07 |
-| `docs/plan-008-stage-1-breakdown` | 0:08 | 0:07 |
 | `docs/dec-053-pos-coordinate-reference` | 0:05 | 0:05 |
 | `fix/deps-audit-overrides` | 0:03 | 0:03 |
 | `docs/ciso-supplier-minimization-231` | 0:01 | 0:00 |
@@ -53,6 +53,7 @@
 | `docs/secrets-delivery` | 0:01 | 0:01 |
 | `docs/ciso-retention-152-299-302` | 0:00 | 0:00 |
 | `docs/close-152-208-open-questions` | 0:00 | 0:00 |
+| `docs/plan-008-stage-1-estimate` | 0:00 | 0:00 |
 | `docs/dec-026-retention-ref` | 0:00 | 0:00 |
 | `HEAD` | 0:00 | 0:00 |
 | `docs/ciso-customer-auth-access-208-218-294-304` | 0:00 | 0:00 |
@@ -75,10 +76,10 @@
 | A2.1 | 1:00 | 0:59 | 0:35 |
 | A1 | 0:47 | 0:32 | 0:27 |
 | Node 24.22.1 | 0:23 | 0:22 | 0:17 |
+| docs/plan-008-stage-1-breakdown | 0:18 | 0:16 | 0:15 |
 | docs/dec-054-sourcing-benchmark | 0:13 | 0:11 | 0:04 |
 | залежності: аудит | 0:11 | 0:11 | 0:05 |
 | docs/internal-user-provisioning | 0:11 | 0:07 | 0:06 |
-| docs/plan-008-stage-1-breakdown | 0:08 | 0:07 | 0:06 |
 | docs/dec-053-pos-coordinate-reference | 0:05 | 0:05 | 0:00 |
 | fix/deps-audit-overrides | 0:03 | 0:03 | 0:00 |
 | docs/ciso-supplier-minimization-231 | 0:01 | 0:00 | 0:00 |
@@ -87,6 +88,7 @@
 | docs/secrets-delivery | 0:01 | 0:01 | 0:00 |
 | docs/ciso-retention-152-299-302 | 0:00 | 0:00 | 0:00 |
 | docs/close-152-208-open-questions | 0:00 | 0:00 | 0:00 |
+| docs/plan-008-stage-1-estimate | 0:00 | 0:00 | 0:00 |
 | docs/dec-026-retention-ref | 0:00 | 0:00 | 0:00 |
 | HEAD | 0:00 | 0:00 | 0:00 |
 | docs/ciso-customer-auth-access-208-218-294-304 | 0:00 | 0:00 | 0:00 |
