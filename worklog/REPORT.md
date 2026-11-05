@@ -1,6 +1,6 @@
 # Облік часу — theborodai
 
-Оновлено: 2026-11-05 15:24 (Europe/Kyiv). Поріг паузи: 15 хв. Формат — год:хв. Визначення — у [README.md](README.md).
+Оновлено: 2026-11-05 17:22 (Europe/Kyiv). Поріг паузи: 15 хв. Формат — год:хв. Визначення — у [README.md](README.md).
 
 | Період | Загальний | Мій | з них мої ходи |
 |---|---:|---:|---:|
@@ -13,7 +13,7 @@
 
 | Дата | Загальний | Мій | з них мої ходи | Сесій | Пауз |
 |---|---:|---:|---:|---:|---:|
-| 2026-11-05 | 1:17 | 1:12 | 1:00 | 4 | 4 |
+| 2026-11-05 | 1:17 | 1:12 | 1:00 | 4 | 5 |
 | 2026-11-04 | 2:18 | 2:14 | 1:47 | 1 | 3 |
 | 2026-11-03 | 1:54 | 1:44 | 1:27 | 2 | 3 |
 | 2026-10-29 | 0:03 | 0:02 | 0:02 | 1 | 0 |
@@ -51,9 +51,9 @@
 | `docs/ciso-pcb-transfer-link-nda-295-305` | 0:01 | 0:00 |
 | `docs/ciso-upload-auth-ops-limits-218` | 0:01 | 0:01 |
 | `docs/secrets-delivery` | 0:01 | 0:01 |
+| `docs/plan-008-stage-1-estimate` | 0:01 | 0:00 |
 | `docs/ciso-retention-152-299-302` | 0:00 | 0:00 |
 | `docs/close-152-208-open-questions` | 0:00 | 0:00 |
-| `docs/plan-008-stage-1-estimate` | 0:00 | 0:00 |
 | `docs/dec-026-retention-ref` | 0:00 | 0:00 |
 | `HEAD` | 0:00 | 0:00 |
 | `docs/ciso-customer-auth-access-208-218-294-304` | 0:00 | 0:00 |
@@ -86,9 +86,9 @@
 | docs/ciso-pcb-transfer-link-nda-295-305 | 0:01 | 0:00 | 0:00 |
 | docs/ciso-upload-auth-ops-limits-218 | 0:01 | 0:01 | 0:00 |
 | docs/secrets-delivery | 0:01 | 0:01 | 0:00 |
+| docs/plan-008-stage-1-estimate | 0:01 | 0:00 | 0:00 |
 | docs/ciso-retention-152-299-302 | 0:00 | 0:00 | 0:00 |
 | docs/close-152-208-open-questions | 0:00 | 0:00 | 0:00 |
-| docs/plan-008-stage-1-estimate | 0:00 | 0:00 | 0:00 |
 | docs/dec-026-retention-ref | 0:00 | 0:00 | 0:00 |
 | HEAD | 0:00 | 0:00 | 0:00 |
 | docs/ciso-customer-auth-access-208-218-294-304 | 0:00 | 0:00 | 0:00 |
