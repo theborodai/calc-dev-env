@@ -1,6 +1,6 @@
 ---
 name: stage1-decomposition
-description: Stage-1 (sourcing loop for employees) decomposition — 2026-11-05 blocks 0, A–G saved as docs/_plans/008, PR.329 open for the PM; priority over PR.281/issue triage
+description: Stage-1 (sourcing loop for employees) decomposition — 2026-11-05 blocks 0, A–G saved as docs/_plans/008, PR.329 merged, estimate section in PR.330 open; priority over PR.281/issue triage
 metadata:
   type: project
 ---
@@ -24,7 +24,10 @@ metadata:
 
 **Done 2026-11-05 (~14:30 Kyiv):** user accepted the split as is and asked to save it in the repo WITHOUT conclusions (only blocks 0, A–G + legend + demos) to hand to the PM for organizing work and understanding the process. File `docs/_plans/008-stage-1-work-breakdown.md` (status `planned`, non-normative, statuses as of 11-05, refs `Issue.NNN (#NNN)`; one line maps A–B → 1.1, C–D → 1.2 + inventory, E–G → 1.3). Branch `docs/plan-008-stage-1-breakdown` from main, commit 7396e5c, pushed; **PR.329 opened** (body: blocks, legend, no req/DEC/tests/security impact; check-doc-ids clean). Number 008 chosen because plan 007 refers to "plan 008" for parts 1.2–1.3; offered rename to 009 if 008 should stay for a detailed 1.2–1.3 plan — no answer.
 
-**Stopped at (2026-11-05 ~14:50 Kyiv):** PR.329 open, awaiting user/PM feedback and merge. Working tree on branch `docs/plan-008-stage-1-breakdown`, clean.
+**PR.329 MERGED** by user (~15:00, merge 2a1de09) — plan 008 without estimates is on main.
 
-**Next step on resume:** ask whether PR.329 needs edits / PM feedback, then merge (user merges). Possible follow-ups (not agreed yet): GitHub milestone + Issues per block; keep statuses in plan 008 updated; formalize the 7 PO answers in DEC (#284/285/286/290/291/292/293). After decomposition — return to the parked list in [[adr007-review-progress]] (PR.281 overview, DEC #284/#285, triage all open issues).
-**11-05:** PR.329 merged by user. Estimate section (≈29–52 working days, conditional, approximate) → PR.330 (branch docs/plan-008-stage-1-estimate). Stale remote branch docs/plan-008-stage-1-breakdown recreated by my push — deletion was blocked; user can delete it.
+**Estimate (decided 11-05 ~15:10):** user asked for estimates; I gave per-block working days of the team (user + Claude, no parallelism) based on [[estimate-calibration-a]] (code takes hours; discussions/design/post-review fixes dominate — e.g. SEC.a 20 min code + 2 days fixes, ADR.007 ≈ 8 session days with no code): 0 = 2–3, A = 1, B = 6–10, C = 2–4, D = 1–3, E = 5–9, F = 6–12 (biggest uncertainty, #326), G = 3–5, demos + fixes 3–5 → **≈ 29–52 days ≈ 6–10 weeks**. User required notes: approximate; valid only if plant data #216, accesses #217, stand #282 arrive on time and PO/CISO questions are agreed without delay; waiting, plant calibration (≈2–4 weeks after first full run) and scope changes NOT included; re-estimate after block B. Added as section «Орієнтовна оцінка» in plan 008 (intro line points to it), commit 1ad1733 on branch `docs/plan-008-stage-1-estimate` → **PR.330 open**. PR.329 body was briefly edited by mistake after merge, then restored to original.
+
+**Stopped at (2026-11-05 15:23 Kyiv):** PR.330 open, awaiting user review/merge. Local branch `docs/plan-008-stage-1-estimate`, clean. Stale remote branch `docs/plan-008-stage-1-breakdown` (recreated by my push after merge) — deletion blocked by auto-mode classifier; user should delete it (`! git push origin --delete docs/plan-008-stage-1-breakdown`).
+
+**Next step on resume:** ask whether PR.330 is merged / needs edits and whether the stale branch is deleted. Possible follow-ups (not agreed yet): GitHub milestone + Issues per block; keep statuses in plan 008 updated; formalize the 7 PO answers in DEC (#284/285/286/290/291/292/293). Rename 008→009 is moot (008 merged). After decomposition — return to the parked list in [[adr007-review-progress]] (PR.281 overview, DEC #284/#285, triage all open issues).
