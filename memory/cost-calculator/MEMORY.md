@@ -9,3 +9,4 @@
 - [Project state / PR-PO queue](pr-queue-po-blocked.md) — 11-03: CISO PRs + PR.324 merged, issues closed; next PR.281 findings 4, 6–11
 - [PR/Issue number prefix](pr-issue-number-prefix.md) — PR.312 / Issue.319 in chat; PR.312 (#312) in GitHub texts and docs
 - [Stage-1 decomposition](stage1-decomposition.md) — DONE 11-05: plan 008 (blocks 0, A–G + estimate ≈29–52 days) merged PR.329/PR.330
+- [No pending promises in issues](no-pending-promises-in-issues.md) — resolve issue now; future need → new Issue, don't keep it blocked
