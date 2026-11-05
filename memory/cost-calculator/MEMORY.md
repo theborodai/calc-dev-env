@@ -4,8 +4,8 @@
 - [Estimate calibration A1–A2](estimate-calibration-a.md) — estimates vs actual session time; ~10–15× faster than revised estimate
 - [calc-dev-env: time tracking + memory](dev-env-migration-pending.md) — private repo theborodai/calc-dev-env; installs revmux; idle-save hook auto-saves state after 20 min idle (done 11-05)
 - [SEC implementation progress](sec-implementation-progress.md) — (a) #278 MERGED 2026-10-28; next PR (b) audit+roles+registration, then (c)
-- [ADR.007 review progress](adr007-review-progress.md) — PARKED 11-05 for stage-1 decomposition; resume: PR.281 overview, DEC 284/285, triage all open issues
+- [ADR.007 review progress](adr007-review-progress.md) — RESUMED 11-05 17:52: PO issue draft (one maxFreshness vs #284 data classes) awaits OK → revmux r5 (diff since 47af094) → DEC 284/285 → merge
 - [Review findings one by one](review-findings-one-by-one.md) — discuss findings point by point in plain language before fixing; no mid-list re-runs
 - [Project state / PR-PO queue](pr-queue-po-blocked.md) — 11-03: CISO PRs + PR.324 merged, issues closed; next PR.281 findings 4, 6–11
 - [PR/Issue number prefix](pr-issue-number-prefix.md) — PR.312 / Issue.319 in chat; PR.312 (#312) in GitHub texts and docs
-- [Stage-1 decomposition](stage1-decomposition.md) — 11-05 15:23: plan 008 (blocks 0, A–G) merged in PR.329; estimate ≈29–52 days in PR.330 (open); next: PR.330 merge, then parked PR.281 list
+- [Stage-1 decomposition](stage1-decomposition.md) — DONE 11-05: plan 008 (blocks 0, A–G + estimate ≈29–52 days) merged PR.329/PR.330
