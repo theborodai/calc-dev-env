@@ -11,3 +11,4 @@
 - [Stage-1 decomposition](stage1-decomposition.md) — DONE 11-05: plan 008 (blocks 0, A–G + estimate ≈29–52 days) merged PR.329/PR.330
 - [No pending promises in issues](no-pending-promises-in-issues.md) — resolve issue now; future need → new Issue, don't keep it blocked
 - [No thanks opener](no-thanks-opener.md) — GitHub replies start with substance, no «Дякуємо»
+- [PO does not read PRs](po-does-not-read-prs.md) — unanswered product choice → explicit PO Issue, never «PO will see it in PR»
