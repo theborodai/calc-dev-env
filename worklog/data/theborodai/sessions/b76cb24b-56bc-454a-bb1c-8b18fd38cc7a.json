@@ -1,108 +1,228 @@
 {
  "session": "b76cb24b-56bc-454a-bb1c-8b18fd38cc7a",
  "start": "2026-11-05T11:38:29Z",
- "end": "2026-11-05T11:39:11Z",
+ "end": "2026-11-05T11:52:43Z",
  "ended_at": null,
  "intervals": [
   [
    "2026-11-05T11:38:29Z",
    "2026-11-05T11:38:31Z",
-   "agent",
+   "agent+",
    "docs/adr-007-supplier-data-acquisition"
   ],
   [
    "2026-11-05T11:38:31Z",
    "2026-11-05T11:38:32Z",
-   "agent",
+   "agent+",
    "docs/adr-007-supplier-data-acquisition"
   ],
   [
    "2026-11-05T11:38:32Z",
    "2026-11-05T11:38:33Z",
-   "agent",
+   "agent+",
    "docs/adr-007-supplier-data-acquisition"
   ],
   [
    "2026-11-05T11:38:33Z",
    "2026-11-05T11:38:36Z",
-   "agent",
+   "agent+",
    "docs/adr-007-supplier-data-acquisition"
   ],
   [
    "2026-11-05T11:38:36Z",
    "2026-11-05T11:38:37Z",
-   "agent",
+   "agent+",
    "docs/adr-007-supplier-data-acquisition"
   ],
   [
    "2026-11-05T11:38:37Z",
    "2026-11-05T11:38:38Z",
-   "agent",
+   "agent+",
    "docs/adr-007-supplier-data-acquisition"
   ],
   [
    "2026-11-05T11:38:38Z",
    "2026-11-05T11:38:39Z",
-   "agent",
+   "agent+",
    "docs/adr-007-supplier-data-acquisition"
   ],
   [
    "2026-11-05T11:38:39Z",
    "2026-11-05T11:38:40Z",
-   "agent",
+   "agent+",
    "docs/adr-007-supplier-data-acquisition"
   ],
   [
    "2026-11-05T11:38:40Z",
    "2026-11-05T11:38:42Z",
-   "agent",
+   "agent+",
    "docs/adr-007-supplier-data-acquisition"
   ],
   [
    "2026-11-05T11:38:42Z",
    "2026-11-05T11:38:50Z",
-   "agent",
+   "agent+",
    "docs/adr-007-supplier-data-acquisition"
   ],
   [
    "2026-11-05T11:38:50Z",
    "2026-11-05T11:38:52Z",
-   "agent",
+   "agent+",
    "docs/adr-007-supplier-data-acquisition"
   ],
   [
    "2026-11-05T11:38:52Z",
    "2026-11-05T11:38:52Z",
-   "agent",
+   "agent+",
    "docs/adr-007-supplier-data-acquisition"
   ],
   [
    "2026-11-05T11:38:52Z",
    "2026-11-05T11:38:53Z",
-   "agent",
+   "agent+",
    "docs/adr-007-supplier-data-acquisition"
   ],
   [
    "2026-11-05T11:38:53Z",
    "2026-11-05T11:39:00Z",
-   "agent",
+   "agent+",
    "docs/adr-007-supplier-data-acquisition"
   ],
   [
    "2026-11-05T11:39:00Z",
    "2026-11-05T11:39:11Z",
-   "agent",
+   "agent+",
    "docs/adr-007-supplier-data-acquisition"
   ],
   [
    "2026-11-05T11:39:11Z",
    "2026-11-05T11:39:11Z",
-   "agent",
+   "agent+",
    "docs/adr-007-supplier-data-acquisition"
   ],
   [
    "2026-11-05T11:39:11Z",
    "2026-11-05T11:39:11Z",
+   "agent+",
+   "docs/adr-007-supplier-data-acquisition"
+  ],
+  [
+   "2026-11-05T11:39:11Z",
+   "2026-11-05T11:51:24Z",
+   "user",
+   "docs/adr-007-supplier-data-acquisition"
+  ],
+  [
+   "2026-11-05T11:51:24Z",
+   "2026-11-05T11:51:26Z",
+   "agent",
+   "docs/adr-007-supplier-data-acquisition"
+  ],
+  [
+   "2026-11-05T11:51:26Z",
+   "2026-11-05T11:51:27Z",
+   "agent",
+   "docs/adr-007-supplier-data-acquisition"
+  ],
+  [
+   "2026-11-05T11:51:27Z",
+   "2026-11-05T11:51:30Z",
+   "agent",
+   "docs/adr-007-supplier-data-acquisition"
+  ],
+  [
+   "2026-11-05T11:51:30Z",
+   "2026-11-05T11:51:32Z",
+   "agent",
+   "docs/adr-007-supplier-data-acquisition"
+  ],
+  [
+   "2026-11-05T11:51:32Z",
+   "2026-11-05T11:51:33Z",
+   "agent",
+   "docs/adr-007-supplier-data-acquisition"
+  ],
+  [
+   "2026-11-05T11:51:33Z",
+   "2026-11-05T11:51:43Z",
+   "agent",
+   "docs/adr-007-supplier-data-acquisition"
+  ],
+  [
+   "2026-11-05T11:51:43Z",
+   "2026-11-05T11:51:44Z",
+   "agent",
+   "docs/adr-007-supplier-data-acquisition"
+  ],
+  [
+   "2026-11-05T11:51:44Z",
+   "2026-11-05T11:51:46Z",
+   "agent",
+   "docs/adr-007-supplier-data-acquisition"
+  ],
+  [
+   "2026-11-05T11:51:46Z",
+   "2026-11-05T11:51:48Z",
+   "agent",
+   "docs/adr-007-supplier-data-acquisition"
+  ],
+  [
+   "2026-11-05T11:51:48Z",
+   "2026-11-05T11:51:52Z",
+   "agent",
+   "docs/adr-007-supplier-data-acquisition"
+  ],
+  [
+   "2026-11-05T11:51:52Z",
+   "2026-11-05T11:51:53Z",
+   "agent",
+   "docs/adr-007-supplier-data-acquisition"
+  ],
+  [
+   "2026-11-05T11:51:53Z",
+   "2026-11-05T11:51:56Z",
+   "agent",
+   "docs/adr-007-supplier-data-acquisition"
+  ],
+  [
+   "2026-11-05T11:51:56Z",
+   "2026-11-05T11:52:14Z",
+   "agent",
+   "docs/adr-007-supplier-data-acquisition"
+  ],
+  [
+   "2026-11-05T11:52:14Z",
+   "2026-11-05T11:52:18Z",
+   "agent",
+   "docs/adr-007-supplier-data-acquisition"
+  ],
+  [
+   "2026-11-05T11:52:18Z",
+   "2026-11-05T11:52:18Z",
+   "agent",
+   "docs/adr-007-supplier-data-acquisition"
+  ],
+  [
+   "2026-11-05T11:52:18Z",
+   "2026-11-05T11:52:25Z",
+   "agent",
+   "docs/adr-007-supplier-data-acquisition"
+  ],
+  [
+   "2026-11-05T11:52:25Z",
+   "2026-11-05T11:52:43Z",
+   "agent",
+   "docs/adr-007-supplier-data-acquisition"
+  ],
+  [
+   "2026-11-05T11:52:43Z",
+   "2026-11-05T11:52:43Z",
+   "agent",
+   "docs/adr-007-supplier-data-acquisition"
+  ],
+  [
+   "2026-11-05T11:52:43Z",
+   "2026-11-05T11:52:43Z",
    "agent",
    "docs/adr-007-supplier-data-acquisition"
   ]

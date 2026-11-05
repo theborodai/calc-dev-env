@@ -8,4 +8,4 @@
 - [Review findings one by one](review-findings-one-by-one.md) — discuss findings point by point in plain language before fixing; no mid-list re-runs
 - [Project state / PR-PO queue](pr-queue-po-blocked.md) — 11-03: CISO PRs + PR.324 merged, issues closed; next PR.281 findings 4, 6–11
 - [PR/Issue number prefix](pr-issue-number-prefix.md) — PR.312 / Issue.319 in chat; PR.312 (#312) in GitHub texts and docs
-- [Stage-1 decomposition](stage1-decomposition.md) — 11-05: priority over PR.281/triage; not started yet (idle-save setup first) — on resume start from plans 006/007/008 + issues
+- [Stage-1 decomposition](stage1-decomposition.md) — 11-05: priority over PR.281/triage; first 2-level draft A–H given 11-05; next: user feedback, then decide where it lives
