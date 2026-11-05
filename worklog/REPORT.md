@@ -1,19 +1,19 @@
 # Облік часу — theborodai
 
-Оновлено: 2026-11-05 17:22 (Europe/Kyiv). Поріг паузи: 15 хв. Формат — год:хв. Визначення — у [README.md](README.md).
+Оновлено: 2026-11-05 17:52 (Europe/Kyiv). Поріг паузи: 15 хв. Формат — год:хв. Визначення — у [README.md](README.md).
 
 | Період | Загальний | Мій | з них мої ходи |
 |---|---:|---:|---:|
-| Сьогодні | 1:17 | 1:12 | 1:00 |
-| Цей тиждень | 5:29 | 5:10 | 4:14 |
-| Цей місяць | 5:29 | 5:10 | 4:14 |
-| Усього | 21:12 | 19:57 | 13:43 |
+| Сьогодні | 1:26 | 1:22 | 1:08 |
+| Цей тиждень | 5:39 | 5:20 | 4:23 |
+| Цей місяць | 5:39 | 5:20 | 4:23 |
+| Усього | 21:22 | 20:07 | 13:52 |
 
 ## По днях
 
 | Дата | Загальний | Мій | з них мої ходи | Сесій | Пауз |
 |---|---:|---:|---:|---:|---:|
-| 2026-11-05 | 1:17 | 1:12 | 1:00 | 4 | 5 |
+| 2026-11-05 | 1:26 | 1:22 | 1:08 | 4 | 5 |
 | 2026-11-04 | 2:18 | 2:14 | 1:47 | 1 | 3 |
 | 2026-11-03 | 1:54 | 1:44 | 1:27 | 2 | 3 |
 | 2026-10-29 | 0:03 | 0:02 | 0:02 | 1 | 0 |
@@ -32,7 +32,7 @@
 | Гілка | Загальний | Мій |
 |---|---:|---:|
 | `docs/adr-007-supplier-data-acquisition` | 5:40 | 5:28 |
-| `main` | 3:43 | 3:23 |
+| `main` | 3:52 | 3:31 |
 | `docs/implementation-roadmap` | 2:10 | 2:05 |
 | `feat/sec-internal-auth` | 2:00 | 1:52 |
 | `feat/a2-object-storage` | 1:50 | 1:47 |
@@ -41,17 +41,17 @@
 | `feat/a2-persistence` | 1:00 | 0:59 |
 | `feat/a1-skeleton` | 0:47 | 0:32 |
 | `fix/node-24.22.1` | 0:23 | 0:22 |
-| `docs/plan-008-stage-1-breakdown` | 0:18 | 0:16 |
+| `docs/plan-008-stage-1-breakdown` | 0:18 | 0:17 |
 | `docs/dec-054-sourcing-benchmark` | 0:13 | 0:11 |
 | `fix/deps-audit` | 0:11 | 0:11 |
 | `docs/internal-user-provisioning` | 0:11 | 0:07 |
 | `docs/dec-053-pos-coordinate-reference` | 0:05 | 0:05 |
 | `fix/deps-audit-overrides` | 0:03 | 0:03 |
+| `docs/plan-008-stage-1-estimate` | 0:02 | 0:02 |
 | `docs/ciso-supplier-minimization-231` | 0:01 | 0:00 |
 | `docs/ciso-pcb-transfer-link-nda-295-305` | 0:01 | 0:00 |
 | `docs/ciso-upload-auth-ops-limits-218` | 0:01 | 0:01 |
 | `docs/secrets-delivery` | 0:01 | 0:01 |
-| `docs/plan-008-stage-1-estimate` | 0:01 | 0:00 |
 | `docs/ciso-retention-152-299-302` | 0:00 | 0:00 |
 | `docs/close-152-208-open-questions` | 0:00 | 0:00 |
 | `docs/dec-026-retention-ref` | 0:00 | 0:00 |
@@ -67,7 +67,7 @@
 | Задача | Загальний | Мій | з них мої ходи |
 |---|---:|---:|---:|
 | ADR.007 постачальники | 5:40 | 5:28 | 4:25 |
-| обговорення | 3:43 | 3:23 | 2:35 |
+| обговорення | 3:52 | 3:31 | 2:43 |
 | docs/implementation-roadmap | 2:10 | 2:05 | 1:39 |
 | SEC (#193) | 2:00 | 1:52 | 0:20 |
 | A2.3 | 1:50 | 1:47 | 1:13 |
@@ -76,17 +76,17 @@
 | A2.1 | 1:00 | 0:59 | 0:35 |
 | A1 | 0:47 | 0:32 | 0:27 |
 | Node 24.22.1 | 0:23 | 0:22 | 0:17 |
-| docs/plan-008-stage-1-breakdown | 0:18 | 0:16 | 0:15 |
+| docs/plan-008-stage-1-breakdown | 0:18 | 0:17 | 0:15 |
 | docs/dec-054-sourcing-benchmark | 0:13 | 0:11 | 0:04 |
 | залежності: аудит | 0:11 | 0:11 | 0:05 |
 | docs/internal-user-provisioning | 0:11 | 0:07 | 0:06 |
 | docs/dec-053-pos-coordinate-reference | 0:05 | 0:05 | 0:00 |
 | fix/deps-audit-overrides | 0:03 | 0:03 | 0:00 |
+| docs/plan-008-stage-1-estimate | 0:02 | 0:02 | 0:01 |
 | docs/ciso-supplier-minimization-231 | 0:01 | 0:00 | 0:00 |
 | docs/ciso-pcb-transfer-link-nda-295-305 | 0:01 | 0:00 | 0:00 |
 | docs/ciso-upload-auth-ops-limits-218 | 0:01 | 0:01 | 0:00 |
 | docs/secrets-delivery | 0:01 | 0:01 | 0:00 |
-| docs/plan-008-stage-1-estimate | 0:01 | 0:00 | 0:00 |
 | docs/ciso-retention-152-299-302 | 0:00 | 0:00 | 0:00 |
 | docs/close-152-208-open-questions | 0:00 | 0:00 | 0:00 |
 | docs/dec-026-retention-ref | 0:00 | 0:00 | 0:00 |
