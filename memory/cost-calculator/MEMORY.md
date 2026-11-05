@@ -2,7 +2,7 @@
 - [PO questions as separate issues](po-questions-separate-issues.md) — never ask PO via comments; check whose question it is
 - [Team is user + Claude](team-is-user-plus-claude.md) — one human + Claude, one task at a time; no 2-dev parallelism in estimates
 - [Estimate calibration A1–A2](estimate-calibration-a.md) — estimates vs actual session time; ~10–15× faster than revised estimate
-- [calc-dev-env: time tracking + memory](dev-env-migration-pending.md) — private repo theborodai/calc-dev-env; installs revmux; idle-save (25 min) hooks registered 11-05; commit idle-save/+install.sh, then stage-1
+- [calc-dev-env: time tracking + memory](dev-env-migration-pending.md) — private repo theborodai/calc-dev-env; installs revmux; idle-save hook auto-saves state after 20 min idle (done 11-05)
 - [SEC implementation progress](sec-implementation-progress.md) — (a) #278 MERGED 2026-10-28; next PR (b) audit+roles+registration, then (c)
 - [ADR.007 review progress](adr007-review-progress.md) — PARKED 11-05 for stage-1 decomposition; resume: PR.281 overview, DEC 284/285, triage all open issues
 - [Review findings one by one](review-findings-one-by-one.md) — discuss findings point by point in plain language before fixing; no mid-list re-runs

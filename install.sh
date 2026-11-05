@@ -40,7 +40,7 @@ fi
 
 # 3. Хуки в ~/.claude/settings.json.
 python3 "$DIR/worklog/worklog.py" install-hook
-#    Автозбереження стану діалогу після 25 хв бездіяльності (codespace зупиняється після 30).
+#    Автозбереження стану діалогу після 20 хв бездіяльності (codespace зупиняється після 30).
 python3 - "$DIR/idle-save/idle-save.sh" <<'PY'
 import json, sys
 from pathlib import Path
