@@ -1,6 +1,6 @@
 ---
 name: stage1-decomposition
-description: Stage-1 (sourcing loop for employees) decomposition — 2026-11-05 first 2-level draft (blocks 0, A–G + demos) given in chat, awaiting user feedback; priority over PR.281/issue triage
+description: Stage-1 (sourcing loop for employees) decomposition — 2026-11-05 blocks 0, A–G saved as docs/_plans/008, PR.329 open for the PM; priority over PR.281/issue triage
 metadata:
   type: project
 ---
@@ -22,7 +22,8 @@ metadata:
 
 **Key findings:** 7 PO answers (#284/285/286/290/291/292/293) not formalized in any DEC — 1–2 PRs, no one to wait for. Not discussed yet: #287, #288, #326, #327. External blockers: #216, #217, #282, #322 (PO), #308/#310/#321 (CISO). Can start now: A, B core, C without values, E gateway on fixed data.
 
-**Stopped at (2026-11-05 ~14:15 Kyiv):** asked user whether the block split fits (merge/split items?) and offered: after fixing structure → publish as PM page (artifact) or GitHub milestone + Issues. User went idle; no answer yet. Nothing written to repo.
+**Done 2026-11-05 (~14:30 Kyiv):** user accepted the split as is and asked to save it in the repo WITHOUT conclusions (only blocks 0, A–G + legend + demos) to hand to the PM for organizing work and understanding the process. File `docs/_plans/008-stage-1-work-breakdown.md` (status `planned`, non-normative, statuses as of 11-05, refs `Issue.NNN (#NNN)`; one line maps A–B → 1.1, C–D → 1.2 + inventory, E–G → 1.3). Branch `docs/plan-008-stage-1-breakdown` from main, commit 7396e5c, pushed; **PR.329 opened** (body: blocks, legend, no req/DEC/tests/security impact; check-doc-ids clean). Number 008 chosen because plan 007 refers to "plan 008" for parts 1.2–1.3; offered rename to 009 if 008 should stay for a detailed 1.2–1.3 plan — no answer.
 
-**Next step on resume:** re-show draft v1 briefly (or ask if they saw it), get feedback on blocks, then decide where it lives (PM page / docs/_plans/008 / milestone). When decomposition is done, return to the parked list in [[adr007-review-progress]].
-**11-05 saved:** docs/_plans/008-stage-1-work-breakdown.md on branch docs/plan-008-stage-1-breakdown (commit 7396e5c) → PR.329 opened 11-05. Blocks 0, A–G only, no conclusions; for the PM. Took number 008 (plan 007 refers to 008 for parts 1.2–1.3).
+**Stopped at (2026-11-05 ~14:50 Kyiv):** PR.329 open, awaiting user/PM feedback and merge. Working tree on branch `docs/plan-008-stage-1-breakdown`, clean.
+
+**Next step on resume:** ask whether PR.329 needs edits / PM feedback, then merge (user merges). Possible follow-ups (not agreed yet): GitHub milestone + Issues per block; keep statuses in plan 008 updated; formalize the 7 PO answers in DEC (#284/285/286/290/291/292/293). After decomposition — return to the parked list in [[adr007-review-progress]] (PR.281 overview, DEC #284/#285, triage all open issues).
