@@ -258,6 +258,15 @@ python3 worklog.py install-hook       # (пере)записати хуки в ~
 Запуск — словами в сесії Claude Code: «revmux pr 281 профілем spec»; після виправлень — «re-review». Оновлення
 revmux: нова версія й SHA-256 з `revmux_<версія>_checksums.txt` релізу — у змінних на початку кроку 4.
 
+### Автозбереження стану діалогу (idle-save)
+
+Codespace зупиняється після 30 хв бездіяльності. Хук `Stop` (кінець відповіді Claude) запускає
+`idle-save/idle-save.sh arm` — таймер на 25 хв (`IDLE_SAVE_SECONDS`, типово 1500); хук `UserPromptSubmit`
+(нове повідомлення) — `cancel`. Якщо таймер спрацював, сесія відновлюється headless-форком
+(`claude -p --resume <id> --fork-session --no-session-persistence`, лише Read/Write/Edit/Glob/Grep у реальному
+каталозі пам'яті), записує стан у пам'ять, після чого `worklog.py sync` комітить і пушить. Хуки прописує
+`install.sh` (крок 3). Стан і лог — `/tmp/claude-idle-save/<session_id>.{pid,log}`.
+
 ## 7. Як рахується час
 
 `worklog.py` бере з транскриптів **лише мітки часу подій і назву гілки**, без змісту повідомлень. Стрічка подій

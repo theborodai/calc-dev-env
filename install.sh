@@ -40,6 +40,19 @@ fi
 
 # 3. Хуки в ~/.claude/settings.json.
 python3 "$DIR/worklog/worklog.py" install-hook
+#    Автозбереження стану діалогу після 25 хв бездіяльності (codespace зупиняється після 30).
+python3 - "$DIR/idle-save/idle-save.sh" <<'PY'
+import json, sys
+from pathlib import Path
+p = Path.home() / ".claude" / "settings.json"
+s = json.loads(p.read_text(encoding="utf-8")) if p.exists() else {}
+for event, mode in (("Stop", "arm"), ("UserPromptSubmit", "cancel")):
+    cmd = f"bash {sys.argv[1]} {mode}"
+    entries = s.setdefault("hooks", {}).setdefault(event, [])
+    if not any(h.get("command") == cmd for e in entries for h in e.get("hooks", [])):
+        entries.append({"hooks": [{"type": "command", "command": cmd}]})
+p.write_text(json.dumps(s, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+PY
 
 # 4. revmux — мультиагентне рев'ю PR (стандарт рев'ю — .revmux/ у cost-calculator).
 #    Версія й SHA-256 зафіксовані тут: оновлення — свідома зміна цього файлу.
