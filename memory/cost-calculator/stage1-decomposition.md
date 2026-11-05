@@ -25,3 +25,4 @@ metadata:
 **Stopped at (2026-11-05 ~14:15 Kyiv):** asked user whether the block split fits (merge/split items?) and offered: after fixing structure → publish as PM page (artifact) or GitHub milestone + Issues. User went idle; no answer yet. Nothing written to repo.
 
 **Next step on resume:** re-show draft v1 briefly (or ask if they saw it), get feedback on blocks, then decide where it lives (PM page / docs/_plans/008 / milestone). When decomposition is done, return to the parked list in [[adr007-review-progress]].
+**11-05 saved:** docs/_plans/008-stage-1-work-breakdown.md on branch docs/plan-008-stage-1-breakdown (commit 7396e5c, local, not pushed). Blocks 0, A–G only, no conclusions; for the PM. Took number 008 (plan 007 refers to 008 for parts 1.2–1.3).
