@@ -1,19 +1,19 @@
 # Облік часу — theborodai
 
-Оновлено: 2026-11-05 14:25 (Europe/Kyiv). Поріг паузи: 15 хв. Формат — год:хв. Визначення — у [README.md](README.md).
+Оновлено: 2026-11-05 14:51 (Europe/Kyiv). Поріг паузи: 15 хв. Формат — год:хв. Визначення — у [README.md](README.md).
 
 | Період | Загальний | Мій | з них мої ходи |
 |---|---:|---:|---:|
-| Сьогодні | 1:00 | 0:55 | 0:45 |
-| Цей тиждень | 5:12 | 4:53 | 4:00 |
-| Цей місяць | 5:12 | 4:53 | 4:00 |
-| Усього | 20:55 | 19:41 | 13:29 |
+| Сьогодні | 1:06 | 1:03 | 0:51 |
+| Цей тиждень | 5:19 | 5:01 | 4:06 |
+| Цей місяць | 5:19 | 5:01 | 4:06 |
+| Усього | 21:02 | 19:48 | 13:35 |
 
 ## По днях
 
 | Дата | Загальний | Мій | з них мої ходи | Сесій | Пауз |
 |---|---:|---:|---:|---:|---:|
-| 2026-11-05 | 1:00 | 0:55 | 0:45 | 4 | 3 |
+| 2026-11-05 | 1:06 | 1:03 | 0:51 | 4 | 3 |
 | 2026-11-04 | 2:18 | 2:14 | 1:47 | 1 | 3 |
 | 2026-11-03 | 1:54 | 1:44 | 1:27 | 2 | 3 |
 | 2026-10-29 | 0:03 | 0:02 | 0:02 | 1 | 0 |
@@ -44,9 +44,9 @@
 | `docs/dec-054-sourcing-benchmark` | 0:13 | 0:11 |
 | `fix/deps-audit` | 0:11 | 0:11 |
 | `docs/internal-user-provisioning` | 0:11 | 0:07 |
+| `docs/plan-008-stage-1-breakdown` | 0:08 | 0:07 |
 | `docs/dec-053-pos-coordinate-reference` | 0:05 | 0:05 |
 | `fix/deps-audit-overrides` | 0:03 | 0:03 |
-| `docs/plan-008-stage-1-breakdown` | 0:01 | 0:00 |
 | `docs/ciso-supplier-minimization-231` | 0:01 | 0:00 |
 | `docs/ciso-pcb-transfer-link-nda-295-305` | 0:01 | 0:00 |
 | `docs/ciso-upload-auth-ops-limits-218` | 0:01 | 0:01 |
@@ -78,9 +78,9 @@
 | docs/dec-054-sourcing-benchmark | 0:13 | 0:11 | 0:04 |
 | залежності: аудит | 0:11 | 0:11 | 0:05 |
 | docs/internal-user-provisioning | 0:11 | 0:07 | 0:06 |
+| docs/plan-008-stage-1-breakdown | 0:08 | 0:07 | 0:06 |
 | docs/dec-053-pos-coordinate-reference | 0:05 | 0:05 | 0:00 |
 | fix/deps-audit-overrides | 0:03 | 0:03 | 0:00 |
-| docs/plan-008-stage-1-breakdown | 0:01 | 0:00 | 0:00 |
 | docs/ciso-supplier-minimization-231 | 0:01 | 0:00 | 0:00 |
 | docs/ciso-pcb-transfer-link-nda-295-305 | 0:01 | 0:00 | 0:00 |
 | docs/ciso-upload-auth-ops-limits-218 | 0:01 | 0:01 | 0:00 |
