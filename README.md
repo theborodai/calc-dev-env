@@ -68,6 +68,7 @@ worklog.py hook ──фон──▶ worklog.py sync ──▶ worklog/data/, w
 calc-dev-env/
 ├── README.md                 ← ця інструкція
 ├── install.sh                ← ідемпотентне налаштування (dotfiles-точка входу)
+├── issue-labels/daily.sh    ← щоденна актуалізація міток Issue (SessionStart)
 ├── worklog/
 │   ├── worklog.py            ← збір, звіт, git, хуки
 │   ├── REPORT.md             ← звіт, оновлюється автоматично
@@ -266,6 +267,15 @@ Codespace зупиняється після 30 хв бездіяльності. 
 (`claude -p --resume <id> --fork-session --no-session-persistence`, лише Read/Write/Edit/Glob/Grep у реальному
 каталозі пам'яті), записує стан у пам'ять, після чого `worklog.py sync` комітить і пушить. Хуки прописує
 `install.sh` (крок 3). Стан і лог — `/tmp/claude-idle-save/<session_id>.{pid,log}`.
+
+### Щоденна актуалізація міток Issue
+
+Правило міток — `documentation-rules.md` §11 п.8 у cost-calculator. Хук `SessionStart` викликає
+`issue-labels/daily.sh hook`: якщо сесія в `/workspaces/cost-calculator` і сьогодні запуску ще не було
+(`~/.local/state/issue-labels/last-run`), Claude першим реченням каже, що потрібна актуалізація, і запускає
+`daily.sh run` у фоні. Той виконує `scripts/issue-labels-sync.py --team theborodai,iBorodai` (з поточної гілки
+або з `origin/main`), переводить Issue з відповіддю ззовні в `стан: є відповідь` і після успіху пише дату.
+Хук прописує `install.sh` (крок 3).
 
 ## 7. Як рахується час
 

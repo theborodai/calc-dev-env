@@ -41,13 +41,15 @@ fi
 # 3. Хуки в ~/.claude/settings.json.
 python3 "$DIR/worklog/worklog.py" install-hook
 #    Автозбереження стану діалогу після 20 хв бездіяльності (codespace зупиняється після 30).
-python3 - "$DIR/idle-save/idle-save.sh" <<'PY'
+#    Щоденна актуалізація міток Issue cost-calculator (SessionStart, не частіше разу на день).
+python3 - "$DIR/idle-save/idle-save.sh" "$DIR/issue-labels/daily.sh" <<'PY'
 import json, sys
 from pathlib import Path
 p = Path.home() / ".claude" / "settings.json"
 s = json.loads(p.read_text(encoding="utf-8")) if p.exists() else {}
-for event, mode in (("Stop", "arm"), ("UserPromptSubmit", "cancel")):
-    cmd = f"bash {sys.argv[1]} {mode}"
+hooks = [("Stop", f"bash {sys.argv[1]} arm"), ("UserPromptSubmit", f"bash {sys.argv[1]} cancel"),
+         ("SessionStart", f"bash {sys.argv[2]} hook")]
+for event, cmd in hooks:
     entries = s.setdefault("hooks", {}).setdefault(event, [])
     if not any(h.get("command") == cmd for e in entries for h in e.get("hooks", [])):
         entries.append({"hooks": [{"type": "command", "command": cmd}]})
