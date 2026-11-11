@@ -1,7 +1,7 @@
 {
  "session": "b76cb24b-56bc-454a-bb1c-8b18fd38cc7a",
  "start": "2026-11-05T11:38:29Z",
- "end": "2026-11-05T21:05:23Z",
+ "end": "2026-11-05T21:13:07Z",
  "ended_at": null,
  "intervals": [
   [
@@ -3289,343 +3289,427 @@
   [
    "2026-11-05T21:00:23Z",
    "2026-11-05T21:00:26Z",
-   "agent",
+   "agent+",
    "docs/dec-055-bom-resolution"
   ],
   [
    "2026-11-05T21:00:26Z",
    "2026-11-05T21:00:32Z",
-   "agent",
+   "agent+",
    "docs/dec-055-bom-resolution"
   ],
   [
    "2026-11-05T21:00:32Z",
    "2026-11-05T21:02:09Z",
-   "agent",
+   "agent+",
    "docs/dec-055-bom-resolution"
   ],
   [
    "2026-11-05T21:02:09Z",
    "2026-11-05T21:02:11Z",
-   "agent",
+   "agent+",
    "docs/dec-055-bom-resolution"
   ],
   [
    "2026-11-05T21:02:11Z",
    "2026-11-05T21:02:13Z",
-   "agent",
+   "agent+",
    "docs/dec-055-bom-resolution"
   ],
   [
    "2026-11-05T21:02:13Z",
    "2026-11-05T21:02:14Z",
-   "agent",
+   "agent+",
    "docs/dec-055-bom-resolution"
   ],
   [
    "2026-11-05T21:02:14Z",
    "2026-11-05T21:02:20Z",
-   "agent",
+   "agent+",
    "docs/issue-labels-rule"
   ],
   [
    "2026-11-05T21:02:20Z",
    "2026-11-05T21:02:21Z",
-   "agent",
+   "agent+",
    "docs/issue-labels-rule"
   ],
   [
    "2026-11-05T21:02:21Z",
    "2026-11-05T21:02:22Z",
-   "agent",
+   "agent+",
    "docs/issue-labels-rule"
   ],
   [
    "2026-11-05T21:02:22Z",
    "2026-11-05T21:02:39Z",
-   "agent",
+   "agent+",
    "docs/issue-labels-rule"
   ],
   [
    "2026-11-05T21:02:39Z",
    "2026-11-05T21:02:39Z",
-   "agent",
+   "agent+",
    "docs/issue-labels-rule"
   ],
   [
    "2026-11-05T21:02:39Z",
    "2026-11-05T21:02:41Z",
-   "agent",
+   "agent+",
    "docs/issue-labels-rule"
   ],
   [
    "2026-11-05T21:02:41Z",
    "2026-11-05T21:02:53Z",
-   "agent",
+   "agent+",
    "docs/issue-labels-rule"
   ],
   [
    "2026-11-05T21:02:53Z",
    "2026-11-05T21:02:56Z",
-   "agent",
+   "agent+",
    "docs/issue-labels-rule"
   ],
   [
    "2026-11-05T21:02:56Z",
    "2026-11-05T21:02:58Z",
-   "agent",
+   "agent+",
    "docs/issue-labels-rule"
   ],
   [
    "2026-11-05T21:02:58Z",
    "2026-11-05T21:02:59Z",
-   "agent",
+   "agent+",
    "docs/issue-labels-rule"
   ],
   [
    "2026-11-05T21:02:59Z",
    "2026-11-05T21:03:01Z",
-   "agent",
+   "agent+",
    "docs/issue-labels-rule"
   ],
   [
    "2026-11-05T21:03:01Z",
    "2026-11-05T21:03:02Z",
-   "agent",
+   "agent+",
    "docs/issue-labels-rule"
   ],
   [
    "2026-11-05T21:03:02Z",
    "2026-11-05T21:03:04Z",
-   "agent",
+   "agent+",
    "docs/issue-labels-rule"
   ],
   [
    "2026-11-05T21:03:04Z",
    "2026-11-05T21:03:05Z",
-   "agent",
+   "agent+",
    "docs/issue-labels-rule"
   ],
   [
    "2026-11-05T21:03:05Z",
    "2026-11-05T21:03:07Z",
-   "agent",
+   "agent+",
    "docs/issue-labels-rule"
   ],
   [
    "2026-11-05T21:03:07Z",
    "2026-11-05T21:03:09Z",
-   "agent",
+   "agent+",
    "docs/issue-labels-rule"
   ],
   [
    "2026-11-05T21:03:09Z",
    "2026-11-05T21:03:12Z",
-   "agent",
+   "agent+",
    "docs/issue-labels-rule"
   ],
   [
    "2026-11-05T21:03:12Z",
    "2026-11-05T21:03:13Z",
-   "agent",
+   "agent+",
    "docs/issue-labels-rule"
   ],
   [
    "2026-11-05T21:03:13Z",
    "2026-11-05T21:03:14Z",
-   "agent",
+   "agent+",
    "docs/issue-labels-rule"
   ],
   [
    "2026-11-05T21:03:14Z",
    "2026-11-05T21:03:23Z",
-   "agent",
+   "agent+",
    "docs/issue-labels-rule"
   ],
   [
    "2026-11-05T21:03:23Z",
    "2026-11-05T21:03:23Z",
-   "agent",
+   "agent+",
    "docs/issue-labels-rule"
   ],
   [
    "2026-11-05T21:03:23Z",
    "2026-11-05T21:03:26Z",
-   "agent",
+   "agent+",
    "docs/issue-labels-rule"
   ],
   [
    "2026-11-05T21:03:26Z",
    "2026-11-05T21:03:28Z",
-   "agent",
+   "agent+",
    "docs/issue-labels-rule"
   ],
   [
    "2026-11-05T21:03:28Z",
    "2026-11-05T21:03:29Z",
-   "agent",
+   "agent+",
    "docs/issue-labels-rule"
   ],
   [
    "2026-11-05T21:03:29Z",
    "2026-11-05T21:03:31Z",
-   "agent",
+   "agent+",
    "docs/issue-labels-rule"
   ],
   [
    "2026-11-05T21:03:31Z",
    "2026-11-05T21:03:40Z",
-   "agent",
+   "agent+",
    "docs/issue-labels-rule"
   ],
   [
    "2026-11-05T21:03:40Z",
    "2026-11-05T21:03:46Z",
-   "agent",
+   "agent+",
    "docs/issue-labels-rule"
   ],
   [
    "2026-11-05T21:03:46Z",
    "2026-11-05T21:03:53Z",
-   "agent",
+   "agent+",
    "docs/issue-labels-rule"
   ],
   [
    "2026-11-05T21:03:53Z",
    "2026-11-05T21:03:54Z",
-   "agent",
+   "agent+",
    "docs/issue-labels-rule"
   ],
   [
    "2026-11-05T21:03:54Z",
    "2026-11-05T21:03:55Z",
-   "agent",
+   "agent+",
    "docs/issue-labels-rule"
   ],
   [
    "2026-11-05T21:03:55Z",
    "2026-11-05T21:03:56Z",
-   "agent",
+   "agent+",
    "docs/issue-labels-rule"
   ],
   [
    "2026-11-05T21:03:56Z",
    "2026-11-05T21:03:57Z",
-   "agent",
+   "agent+",
    "docs/issue-labels-rule"
   ],
   [
    "2026-11-05T21:03:57Z",
    "2026-11-05T21:03:58Z",
-   "agent",
+   "agent+",
    "docs/issue-labels-rule"
   ],
   [
    "2026-11-05T21:03:58Z",
    "2026-11-05T21:04:08Z",
-   "agent",
+   "agent+",
    "docs/issue-labels-rule"
   ],
   [
    "2026-11-05T21:04:08Z",
    "2026-11-05T21:04:08Z",
-   "agent",
+   "agent+",
    "docs/issue-labels-rule"
   ],
   [
    "2026-11-05T21:04:08Z",
    "2026-11-05T21:04:11Z",
-   "agent",
+   "agent+",
    "docs/issue-labels-rule"
   ],
   [
    "2026-11-05T21:04:11Z",
    "2026-11-05T21:04:24Z",
-   "agent",
+   "agent+",
    "docs/issue-labels-rule"
   ],
   [
    "2026-11-05T21:04:24Z",
    "2026-11-05T21:04:26Z",
-   "agent",
+   "agent+",
    "docs/issue-labels-rule"
   ],
   [
    "2026-11-05T21:04:26Z",
    "2026-11-05T21:04:33Z",
-   "agent",
+   "agent+",
    "docs/issue-labels-rule"
   ],
   [
    "2026-11-05T21:04:33Z",
    "2026-11-05T21:04:40Z",
-   "agent",
+   "agent+",
    "docs/issue-labels-rule"
   ],
   [
    "2026-11-05T21:04:40Z",
    "2026-11-05T21:04:42Z",
-   "agent",
+   "agent+",
    "docs/issue-labels-rule"
   ],
   [
    "2026-11-05T21:04:42Z",
    "2026-11-05T21:04:44Z",
-   "agent",
+   "agent+",
    "docs/issue-labels-rule"
   ],
   [
    "2026-11-05T21:04:44Z",
    "2026-11-05T21:04:53Z",
-   "agent",
+   "agent+",
    "docs/issue-labels-rule"
   ],
   [
    "2026-11-05T21:04:53Z",
    "2026-11-05T21:04:59Z",
-   "agent",
+   "agent+",
    "docs/issue-labels-rule"
   ],
   [
    "2026-11-05T21:04:59Z",
    "2026-11-05T21:05:00Z",
-   "agent",
+   "agent+",
    "docs/issue-labels-rule"
   ],
   [
    "2026-11-05T21:05:00Z",
    "2026-11-05T21:05:07Z",
-   "agent",
+   "agent+",
    "docs/issue-labels-rule"
   ],
   [
    "2026-11-05T21:05:07Z",
    "2026-11-05T21:05:13Z",
-   "agent",
+   "agent+",
    "docs/issue-labels-rule"
   ],
   [
    "2026-11-05T21:05:13Z",
    "2026-11-05T21:05:14Z",
-   "agent",
+   "agent+",
    "docs/issue-labels-rule"
   ],
   [
    "2026-11-05T21:05:14Z",
    "2026-11-05T21:05:22Z",
-   "agent",
+   "agent+",
    "docs/issue-labels-rule"
   ],
   [
    "2026-11-05T21:05:22Z",
    "2026-11-05T21:05:23Z",
-   "agent",
+   "agent+",
    "docs/issue-labels-rule"
   ],
   [
    "2026-11-05T21:05:23Z",
    "2026-11-05T21:05:23Z",
-   "agent",
+   "agent+",
+   "docs/issue-labels-rule"
+  ],
+  [
+   "2026-11-05T21:05:23Z",
+   "2026-11-05T21:10:47Z",
+   "user",
+   "docs/issue-labels-rule"
+  ],
+  [
+   "2026-11-05T21:10:47Z",
+   "2026-11-05T21:10:49Z",
+   "agent+",
+   "docs/issue-labels-rule"
+  ],
+  [
+   "2026-11-05T21:10:49Z",
+   "2026-11-05T21:10:52Z",
+   "agent+",
+   "docs/issue-labels-rule"
+  ],
+  [
+   "2026-11-05T21:10:52Z",
+   "2026-11-05T21:10:52Z",
+   "agent+",
+   "docs/issue-labels-rule"
+  ],
+  [
+   "2026-11-05T21:10:52Z",
+   "2026-11-05T21:10:52Z",
+   "agent+",
+   "docs/issue-labels-rule"
+  ],
+  [
+   "2026-11-05T21:10:52Z",
+   "2026-11-05T21:12:19Z",
+   "user",
+   "docs/issue-labels-rule"
+  ],
+  [
+   "2026-11-05T21:12:19Z",
+   "2026-11-05T21:12:22Z",
+   "agent+",
+   "docs/issue-labels-rule"
+  ],
+  [
+   "2026-11-05T21:12:22Z",
+   "2026-11-05T21:12:27Z",
+   "agent+",
+   "docs/issue-labels-rule"
+  ],
+  [
+   "2026-11-05T21:12:27Z",
+   "2026-11-05T21:12:29Z",
+   "agent+",
+   "docs/issue-labels-rule"
+  ],
+  [
+   "2026-11-05T21:12:29Z",
+   "2026-11-05T21:12:32Z",
+   "agent+",
+   "docs/issue-labels-rule"
+  ],
+  [
+   "2026-11-05T21:12:32Z",
+   "2026-11-05T21:12:35Z",
+   "agent+",
+   "docs/issue-labels-rule"
+  ],
+  [
+   "2026-11-05T21:12:35Z",
+   "2026-11-05T21:12:35Z",
+   "agent+",
+   "docs/issue-labels-rule"
+  ],
+  [
+   "2026-11-05T21:12:35Z",
+   "2026-11-05T21:12:35Z",
+   "agent+",
+   "docs/issue-labels-rule"
+  ],
+  [
+   "2026-11-05T21:12:35Z",
+   "2026-11-05T21:13:07Z",
+   "user",
    "docs/issue-labels-rule"
   ]
  ],
