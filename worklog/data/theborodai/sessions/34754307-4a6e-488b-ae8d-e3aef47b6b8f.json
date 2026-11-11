@@ -1,7 +1,7 @@
 {
  "session": "34754307-4a6e-488b-ae8d-e3aef47b6b8f",
  "start": "2026-11-11T13:33:31Z",
- "end": "2026-11-11T13:47:20Z",
+ "end": "2026-11-11T13:50:28Z",
  "ended_at": null,
  "intervals": [
   [
@@ -505,42 +505,258 @@
   [
    "2026-11-11T13:47:09Z",
    "2026-11-11T13:47:10Z",
-   "agent",
+   "agent+",
    "docs/dec-056-supplier-freshness"
   ],
   [
    "2026-11-11T13:47:10Z",
    "2026-11-11T13:47:12Z",
-   "agent",
+   "agent+",
    "docs/dec-056-supplier-freshness"
   ],
   [
    "2026-11-11T13:47:12Z",
    "2026-11-11T13:47:14Z",
-   "agent",
+   "agent+",
    "docs/dec-056-supplier-freshness"
   ],
   [
    "2026-11-11T13:47:14Z",
    "2026-11-11T13:47:20Z",
-   "agent",
+   "agent+",
    "docs/dec-056-supplier-freshness"
   ],
   [
    "2026-11-11T13:47:20Z",
    "2026-11-11T13:47:20Z",
-   "agent",
+   "agent+",
    "docs/dec-056-supplier-freshness"
   ],
   [
    "2026-11-11T13:47:20Z",
    "2026-11-11T13:47:20Z",
-   "agent",
+   "agent+",
    "docs/dec-056-supplier-freshness"
   ],
   [
    "2026-11-11T13:47:20Z",
    "2026-11-11T13:47:20Z",
+   "agent+",
+   "docs/dec-056-supplier-freshness"
+  ],
+  [
+   "2026-11-11T13:47:20Z",
+   "2026-11-11T13:47:58Z",
+   "user",
+   "docs/dec-056-supplier-freshness"
+  ],
+  [
+   "2026-11-11T13:47:58Z",
+   "2026-11-11T13:48:13Z",
+   "agent",
+   "docs/dec-056-supplier-freshness"
+  ],
+  [
+   "2026-11-11T13:48:13Z",
+   "2026-11-11T13:48:15Z",
+   "agent",
+   "docs/dec-056-supplier-freshness"
+  ],
+  [
+   "2026-11-11T13:48:15Z",
+   "2026-11-11T13:48:15Z",
+   "agent",
+   "docs/dec-056-supplier-freshness"
+  ],
+  [
+   "2026-11-11T13:48:15Z",
+   "2026-11-11T13:48:18Z",
+   "agent",
+   "docs/dec-056-supplier-freshness"
+  ],
+  [
+   "2026-11-11T13:48:18Z",
+   "2026-11-11T13:48:19Z",
+   "agent",
+   "docs/dec-056-supplier-freshness"
+  ],
+  [
+   "2026-11-11T13:48:19Z",
+   "2026-11-11T13:48:30Z",
+   "agent",
+   "docs/dec-056-supplier-freshness"
+  ],
+  [
+   "2026-11-11T13:48:30Z",
+   "2026-11-11T13:48:31Z",
+   "agent",
+   "docs/dec-056-supplier-freshness"
+  ],
+  [
+   "2026-11-11T13:48:31Z",
+   "2026-11-11T13:48:31Z",
+   "agent",
+   "docs/dec-056-supplier-freshness"
+  ],
+  [
+   "2026-11-11T13:48:31Z",
+   "2026-11-11T13:48:50Z",
+   "agent",
+   "docs/dec-056-supplier-freshness"
+  ],
+  [
+   "2026-11-11T13:48:50Z",
+   "2026-11-11T13:48:51Z",
+   "agent",
+   "docs/dec-056-supplier-freshness"
+  ],
+  [
+   "2026-11-11T13:48:51Z",
+   "2026-11-11T13:48:51Z",
+   "agent",
+   "docs/dec-056-supplier-freshness"
+  ],
+  [
+   "2026-11-11T13:48:51Z",
+   "2026-11-11T13:48:53Z",
+   "agent",
+   "docs/dec-056-supplier-freshness"
+  ],
+  [
+   "2026-11-11T13:48:53Z",
+   "2026-11-11T13:48:54Z",
+   "agent",
+   "docs/dec-056-supplier-freshness"
+  ],
+  [
+   "2026-11-11T13:48:54Z",
+   "2026-11-11T13:48:55Z",
+   "agent",
+   "docs/dec-056-supplier-freshness"
+  ],
+  [
+   "2026-11-11T13:48:55Z",
+   "2026-11-11T13:48:56Z",
+   "agent",
+   "docs/dec-056-supplier-freshness"
+  ],
+  [
+   "2026-11-11T13:48:56Z",
+   "2026-11-11T13:49:17Z",
+   "agent",
+   "docs/dec-056-supplier-freshness"
+  ],
+  [
+   "2026-11-11T13:49:17Z",
+   "2026-11-11T13:49:29Z",
+   "agent",
+   "docs/dec-056-supplier-freshness"
+  ],
+  [
+   "2026-11-11T13:49:29Z",
+   "2026-11-11T13:49:30Z",
+   "agent",
+   "docs/dec-056-supplier-freshness"
+  ],
+  [
+   "2026-11-11T13:49:30Z",
+   "2026-11-11T13:49:31Z",
+   "agent",
+   "docs/dec-056-supplier-freshness"
+  ],
+  [
+   "2026-11-11T13:49:31Z",
+   "2026-11-11T13:49:33Z",
+   "agent",
+   "docs/dec-056-supplier-freshness"
+  ],
+  [
+   "2026-11-11T13:49:33Z",
+   "2026-11-11T13:49:33Z",
+   "agent",
+   "docs/dec-056-supplier-freshness"
+  ],
+  [
+   "2026-11-11T13:49:33Z",
+   "2026-11-11T13:49:35Z",
+   "agent",
+   "docs/dec-056-supplier-freshness"
+  ],
+  [
+   "2026-11-11T13:49:35Z",
+   "2026-11-11T13:49:36Z",
+   "agent",
+   "docs/dec-056-supplier-freshness"
+  ],
+  [
+   "2026-11-11T13:49:36Z",
+   "2026-11-11T13:49:41Z",
+   "agent",
+   "docs/dec-056-supplier-freshness"
+  ],
+  [
+   "2026-11-11T13:49:41Z",
+   "2026-11-11T13:49:46Z",
+   "agent",
+   "docs/dec-056-supplier-freshness"
+  ],
+  [
+   "2026-11-11T13:49:46Z",
+   "2026-11-11T13:49:49Z",
+   "agent",
+   "docs/dec-056-supplier-freshness"
+  ],
+  [
+   "2026-11-11T13:49:49Z",
+   "2026-11-11T13:49:51Z",
+   "agent",
+   "docs/dec-056-supplier-freshness"
+  ],
+  [
+   "2026-11-11T13:49:51Z",
+   "2026-11-11T13:50:02Z",
+   "agent",
+   "docs/dec-056-supplier-freshness"
+  ],
+  [
+   "2026-11-11T13:50:02Z",
+   "2026-11-11T13:50:12Z",
+   "agent",
+   "docs/dec-056-supplier-freshness"
+  ],
+  [
+   "2026-11-11T13:50:12Z",
+   "2026-11-11T13:50:13Z",
+   "agent",
+   "docs/dec-056-supplier-freshness"
+  ],
+  [
+   "2026-11-11T13:50:13Z",
+   "2026-11-11T13:50:15Z",
+   "agent",
+   "docs/dec-056-supplier-freshness"
+  ],
+  [
+   "2026-11-11T13:50:15Z",
+   "2026-11-11T13:50:16Z",
+   "agent",
+   "docs/dec-056-supplier-freshness"
+  ],
+  [
+   "2026-11-11T13:50:16Z",
+   "2026-11-11T13:50:28Z",
+   "agent",
+   "docs/dec-056-supplier-freshness"
+  ],
+  [
+   "2026-11-11T13:50:28Z",
+   "2026-11-11T13:50:28Z",
+   "agent",
+   "docs/dec-056-supplier-freshness"
+  ],
+  [
+   "2026-11-11T13:50:28Z",
+   "2026-11-11T13:50:28Z",
    "agent",
    "docs/dec-056-supplier-freshness"
   ]

@@ -1,19 +1,19 @@
 # Облік часу — theborodai
 
-Оновлено: 2026-11-11 15:47 (Europe/Kyiv). Поріг паузи: 15 хв. Формат — год:хв. Визначення — у [README.md](README.md).
+Оновлено: 2026-11-11 16:10 (Europe/Kyiv). Поріг паузи: 15 хв. Формат — год:хв. Визначення — у [README.md](README.md).
 
 | Період | Загальний | Мій | з них мої ходи |
 |---|---:|---:|---:|
-| Сьогодні | 0:14 | 0:14 | 0:10 |
-| Цей тиждень | 0:14 | 0:14 | 0:10 |
-| Цей місяць | 8:00 | 7:40 | 6:08 |
-| Усього | 23:43 | 22:27 | 15:37 |
+| Сьогодні | 0:17 | 0:14 | 0:10 |
+| Цей тиждень | 0:17 | 0:14 | 0:10 |
+| Цей місяць | 8:03 | 7:41 | 6:08 |
+| Усього | 23:46 | 22:28 | 15:37 |
 
 ## По днях
 
 | Дата | Загальний | Мій | з них мої ходи | Сесій | Пауз |
 |---|---:|---:|---:|---:|---:|
-| 2026-11-11 | 0:14 | 0:14 | 0:10 | 1 | 0 |
+| 2026-11-11 | 0:17 | 0:14 | 0:10 | 1 | 0 |
 | 2026-11-05 | 3:33 | 3:28 | 2:44 | 4 | 7 |
 | 2026-11-04 | 2:18 | 2:14 | 1:47 | 1 | 3 |
 | 2026-11-03 | 1:54 | 1:44 | 1:27 | 2 | 3 |
@@ -49,12 +49,12 @@
 | `fix/deps-audit` | 0:11 | 0:11 |
 | `docs/internal-user-provisioning` | 0:11 | 0:07 |
 | `docs/dec-053-pos-coordinate-reference` | 0:05 | 0:05 |
+| `docs/dec-056-supplier-freshness` | 0:04 | 0:01 |
 | `docs/dec-052-261-confirmed` | 0:04 | 0:04 |
 | `fix/deps-audit-overrides` | 0:03 | 0:03 |
 | `docs/plan-008-stage-1-estimate` | 0:02 | 0:02 |
 | `docs/ciso-supplier-minimization-231` | 0:01 | 0:00 |
 | `docs/ciso-pcb-transfer-link-nda-295-305` | 0:01 | 0:00 |
-| `docs/dec-056-supplier-freshness` | 0:01 | 0:01 |
 | `docs/ciso-upload-auth-ops-limits-218` | 0:01 | 0:01 |
 | `docs/secrets-delivery` | 0:01 | 0:01 |
 | `docs/plan-008-customer-record` | 0:01 | 0:01 |
@@ -89,12 +89,12 @@
 | залежності: аудит | 0:11 | 0:11 | 0:05 |
 | docs/internal-user-provisioning | 0:11 | 0:07 | 0:06 |
 | docs/dec-053-pos-coordinate-reference | 0:05 | 0:05 | 0:00 |
+| docs/dec-056-supplier-freshness | 0:04 | 0:01 | 0:01 |
 | docs/dec-052-261-confirmed | 0:04 | 0:04 | 0:03 |
 | fix/deps-audit-overrides | 0:03 | 0:03 | 0:00 |
 | docs/plan-008-stage-1-estimate | 0:02 | 0:02 | 0:01 |
 | docs/ciso-supplier-minimization-231 | 0:01 | 0:00 | 0:00 |
 | docs/ciso-pcb-transfer-link-nda-295-305 | 0:01 | 0:00 | 0:00 |
-| docs/dec-056-supplier-freshness | 0:01 | 0:01 | 0:00 |
 | docs/ciso-upload-auth-ops-limits-218 | 0:01 | 0:01 | 0:00 |
 | docs/secrets-delivery | 0:01 | 0:01 | 0:00 |
 | docs/plan-008-customer-record | 0:01 | 0:01 | 0:00 |
