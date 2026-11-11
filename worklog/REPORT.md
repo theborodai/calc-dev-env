@@ -1,18 +1,19 @@
 # Облік часу — theborodai
 
-Оновлено: 2026-11-11 15:31 (Europe/Kyiv). Поріг паузи: 15 хв. Формат — год:хв. Визначення — у [README.md](README.md).
+Оновлено: 2026-11-11 15:47 (Europe/Kyiv). Поріг паузи: 15 хв. Формат — год:хв. Визначення — у [README.md](README.md).
 
 | Період | Загальний | Мій | з них мої ходи |
 |---|---:|---:|---:|
-| Сьогодні | 0:00 | 0:00 | 0:00 |
-| Цей тиждень | 0:00 | 0:00 | 0:00 |
-| Цей місяць | 7:46 | 7:27 | 5:58 |
-| Усього | 23:29 | 22:14 | 15:27 |
+| Сьогодні | 0:14 | 0:14 | 0:10 |
+| Цей тиждень | 0:14 | 0:14 | 0:10 |
+| Цей місяць | 8:00 | 7:40 | 6:08 |
+| Усього | 23:43 | 22:27 | 15:37 |
 
 ## По днях
 
 | Дата | Загальний | Мій | з них мої ходи | Сесій | Пауз |
 |---|---:|---:|---:|---:|---:|
+| 2026-11-11 | 0:14 | 0:14 | 0:10 | 1 | 0 |
 | 2026-11-05 | 3:33 | 3:28 | 2:44 | 4 | 7 |
 | 2026-11-04 | 2:18 | 2:14 | 1:47 | 1 | 3 |
 | 2026-11-03 | 1:54 | 1:44 | 1:27 | 2 | 3 |
@@ -40,12 +41,12 @@
 | `feat/a2-jobs` | 1:03 | 1:02 |
 | `feat/a2-persistence` | 1:00 | 0:59 |
 | `feat/a1-skeleton` | 0:47 | 0:32 |
+| `docs/dec-055-bom-resolution` | 0:30 | 0:30 |
 | `fix/node-24.22.1` | 0:23 | 0:22 |
-| `docs/dec-055-bom-resolution` | 0:22 | 0:22 |
 | `docs/plan-008-stage-1-breakdown` | 0:18 | 0:17 |
+| `docs/issue-labels-rule` | 0:15 | 0:15 |
 | `docs/dec-054-sourcing-benchmark` | 0:13 | 0:11 |
 | `fix/deps-audit` | 0:11 | 0:11 |
-| `docs/issue-labels-rule` | 0:11 | 0:11 |
 | `docs/internal-user-provisioning` | 0:11 | 0:07 |
 | `docs/dec-053-pos-coordinate-reference` | 0:05 | 0:05 |
 | `docs/dec-052-261-confirmed` | 0:04 | 0:04 |
@@ -53,6 +54,7 @@
 | `docs/plan-008-stage-1-estimate` | 0:02 | 0:02 |
 | `docs/ciso-supplier-minimization-231` | 0:01 | 0:00 |
 | `docs/ciso-pcb-transfer-link-nda-295-305` | 0:01 | 0:00 |
+| `docs/dec-056-supplier-freshness` | 0:01 | 0:01 |
 | `docs/ciso-upload-auth-ops-limits-218` | 0:01 | 0:01 |
 | `docs/secrets-delivery` | 0:01 | 0:01 |
 | `docs/plan-008-customer-record` | 0:01 | 0:01 |
@@ -79,12 +81,12 @@
 | A2.2 | 1:03 | 1:02 | 0:36 |
 | A2.1 | 1:00 | 0:59 | 0:35 |
 | A1 | 0:47 | 0:32 | 0:27 |
+| docs/dec-055-bom-resolution | 0:30 | 0:30 | 0:23 |
 | Node 24.22.1 | 0:23 | 0:22 | 0:17 |
-| docs/dec-055-bom-resolution | 0:22 | 0:22 | 0:16 |
 | docs/plan-008-stage-1-breakdown | 0:18 | 0:17 | 0:15 |
+| docs/issue-labels-rule | 0:15 | 0:15 | 0:10 |
 | docs/dec-054-sourcing-benchmark | 0:13 | 0:11 | 0:04 |
 | залежності: аудит | 0:11 | 0:11 | 0:05 |
-| docs/issue-labels-rule | 0:11 | 0:11 | 0:07 |
 | docs/internal-user-provisioning | 0:11 | 0:07 | 0:06 |
 | docs/dec-053-pos-coordinate-reference | 0:05 | 0:05 | 0:00 |
 | docs/dec-052-261-confirmed | 0:04 | 0:04 | 0:03 |
@@ -92,6 +94,7 @@
 | docs/plan-008-stage-1-estimate | 0:02 | 0:02 | 0:01 |
 | docs/ciso-supplier-minimization-231 | 0:01 | 0:00 | 0:00 |
 | docs/ciso-pcb-transfer-link-nda-295-305 | 0:01 | 0:00 | 0:00 |
+| docs/dec-056-supplier-freshness | 0:01 | 0:01 | 0:00 |
 | docs/ciso-upload-auth-ops-limits-218 | 0:01 | 0:01 | 0:00 |
 | docs/secrets-delivery | 0:01 | 0:01 | 0:00 |
 | docs/plan-008-customer-record | 0:01 | 0:01 | 0:00 |
